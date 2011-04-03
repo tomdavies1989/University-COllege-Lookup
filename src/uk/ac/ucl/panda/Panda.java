@@ -27,7 +27,7 @@ public class Panda {
 	
 	//Adjust with full server paths if changing server
 	
-	//Tom's URLS
+	//Tom's URLS (DO NOT DELETE/CHANGE)
 	private final static String PANDA_ETC  = System.getProperty("panda.etc", "C:/wamp/www/UCLWebSearch/etc/");
 	private final static String PANDA_VAR  = System.getProperty("panda.var", "C:/wamp/www/UCLWebSearch/var/");
 	private final static String PANDA_HOME = System.getProperty("panda.home", "C:/wamp/www/UCLWebSearch/");

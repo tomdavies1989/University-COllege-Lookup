@@ -27,8 +27,7 @@ public class Crawler
 	  arguments[4] = outputDirectoryin;
 	  parseArguments(arguments);
   }
-  
- /* public static void main(String[] args) throws Exception
+   /* public static void main(String[] args) throws Exception
   {
     parseArguments(args);
     
