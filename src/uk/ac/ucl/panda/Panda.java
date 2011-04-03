@@ -91,6 +91,7 @@ public class Panda {
 		System.out.println("  -V --version	 print version information");
 		System.out.println("  -i --index	   index a collection");
 		System.out.println("  -b --batch	retrieve for batch");
+		System.out.println("  -c --crawl -[depth] -[spanHosts] -[numberOfThreads] -[baseURL] -[outputDirectory]	crawl the given webspace");
 		System.out.println("  -e --evaluate	evaluates the results");
 		System.out.println("  -v --var   get var and mean for each query");
 		System.out.println("				   var/results with the specified qrels file");
@@ -183,7 +184,7 @@ public class Panda {
 		if (args.length == 0)
 			return ERROR_NO_ARGUMENTS;
 
-		if(args[0].equals("-c")){
+		if(args[0].equals("-c") || args[0].equals("--crawl") ){
 			try{
 			new Crawler(args[1],args[2],args[3],args[4], args[5]);}
 			catch(Exception e){e.printStackTrace();}
