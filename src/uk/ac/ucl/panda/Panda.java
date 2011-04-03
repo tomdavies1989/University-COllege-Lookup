@@ -26,9 +26,16 @@ public class Panda {
 	private final String DATA  = "../Data/Documents/";
 	
 	//Adjust with full server paths if changing server
+	
+	//Tom's URLS
 	private final static String PANDA_ETC  = System.getProperty("panda.etc", "C:/wamp/www/UCLWebSearch/etc/");
 	private final static String PANDA_VAR  = System.getProperty("panda.var", "C:/wamp/www/UCLWebSearch/var/");
 	private final static String PANDA_HOME = System.getProperty("panda.home", "C:/wamp/www/UCLWebSearch/");
+	
+	//Change to your URLS and comment mine out
+	//private final static String PANDA_ETC  = System.getProperty("panda.etc", "C:/wamp/www/UCLWebSearch/etc/");
+	//private final static String PANDA_VAR  = System.getProperty("panda.var", "C:/wamp/www/UCLWebSearch/var/");
+	//private final static String PANDA_HOME = System.getProperty("panda.home", "C:/wamp/www/UCLWebSearch/");
 	
 	protected String newline = System.getProperty("line.separator");
 
