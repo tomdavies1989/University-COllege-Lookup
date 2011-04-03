@@ -11,6 +11,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Properties;
 import uk.ac.ucl.panda.indexing.TrecIndex;
+import uk.ac.ucl.panda.retrieval.QueryInsert;
 import uk.ac.ucl.panda.retrieval.TrecRetrieval;
 import uk.ac.ucl.panda.utility.io.*;
 import uk.ac.ucl.panda.crawling.*;
@@ -56,6 +57,10 @@ public class Panda {
 	
 	/** Specifies whether to crawl*/
 	protected boolean crawling;
+	/**
+	 * 
+	 * /** Specifies whether to add query*/
+	protected boolean query;
 	/**
 	 * Specifies whether to perform trec_eval like evaluation.
 	 */
@@ -190,6 +195,13 @@ public class Panda {
 			catch(Exception e){e.printStackTrace();}
 		}
 		
+		if(args[0].equals("-q") || args[0].equals("--query") ){
+			try{
+				new QueryInsert(args[1]);
+			}
+			catch(Exception e){e.printStackTrace();}
+		}
+		
 		int pos = 0;
 		while (pos < args.length) {
 			if (args[pos].equals("-h") || args[pos].equals("--help"))
@@ -207,13 +219,17 @@ public class Panda {
 				batch = true;
 			} else if (args[pos].equals("-p") || args[pos].equals("--plot")) {
 				plot = true;
-			} else if (args[pos].equals("-c")) {
+			} else if (args[pos].equals("-c") || args[0].equals("--crawl"))  {
 				crawling = true;
+			} else if (args[pos].equals("-q") || args[0].equals("--query"))  {
+				query = true;
 			} 
 
 			else {
-				unknownOption = args[pos];
-				return ERROR_UNKNOWN_OPTION;
+				if(crawling == false && query == false){
+					unknownOption = args[pos];
+					return ERROR_UNKNOWN_OPTION;
+				}
 			}
 			pos++;
 		}

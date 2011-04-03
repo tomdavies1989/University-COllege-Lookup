@@ -1,24 +1,8 @@
 <class-diagram version="1.0.1" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
   associations="true" dependencies="true" nesting-relationships="true">  
-  <class id="1" corner="BOTTOM_RIGHT" language="java" name="uk.ac.ucl.panda.crawling.HTMLParserListener" project="Panda" 
-    file="/Panda/src/uk/ac/ucl/panda/crawling/WebCrawlerThread.java" binary="false">    
-    <position x="1433" y="429" width="-1" height="-1"/>    
-    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true"/>      
-      <operations public="true" package="true" protected="true" private="true"/>    
-    </display>  
-  </class>  
   <class id="2" corner="BOTTOM_RIGHT" language="java" name="uk.ac.ucl.panda.crawling.LinkedHashBucket" project="Panda" 
     file="/Panda/src/uk/ac/ucl/panda/crawling/LinkedHashBucket.java" binary="false">    
-    <position x="454" y="802" width="-1" height="-1"/>    
-    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true"/>      
-      <operations public="true" package="true" protected="true" private="true"/>    
-    </display>  
-  </class>  
-  <class id="3" corner="BOTTOM_RIGHT" language="java" name="uk.ac.ucl.panda.crawling.Constants" project="Panda" 
-    file="/Panda/src/uk/ac/ucl/panda/crawling/Constants.java" binary="false">    
-    <position x="199" y="192" width="-1" height="-1"/>    
+    <position x="548" y="798" width="-1" height="-1"/>    
     <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
@@ -42,7 +26,7 @@
   </class>  
   <class id="6" corner="BOTTOM_RIGHT" language="java" name="uk.ac.ucl.panda.crawling.ConcurrentIncrementer" 
     project="Panda" file="/Panda/src/uk/ac/ucl/panda/crawling/ConcurrentIncrementer.java" binary="false">    
-    <position x="176" y="452" width="-1" height="-1"/>    
+    <position x="177" y="443" width="-1" height="-1"/>    
     <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
@@ -58,7 +42,7 @@
   </class>  
   <class id="8" corner="BOTTOM_RIGHT" language="java" name="uk.ac.ucl.panda.crawling.WebCrawlerMain" project="Panda" 
     file="/Panda/src/uk/ac/ucl/panda/crawling/WebCrawlerMain.java" binary="false">    
-    <position x="550" y="457" width="-1" height="-1"/>    
+    <position x="551" y="445" width="-1" height="-1"/>    
     <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
@@ -85,19 +69,12 @@
     <end type="TARGET" nodeId="8"/>  
   </dependency>  
   <association>    
+    <bendpoint x="487" y="630"/>    
     <end type="SOURCE" nodeId="8" navigable="false">      
       <attribute name="URLsToVisit"/>      
       <multiplicity minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" nodeId="2" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association>    
-    <end type="SOURCE" nodeId="1" navigable="false">      
-      <attribute name="thread"/>      
-      <multiplicity minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" nodeId="7" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association>    
@@ -113,6 +90,7 @@
     <end type="TARGET" nodeId="4"/>  
   </dependency>  
   <association>    
+    <bendpoint x="631" y="631"/>    
     <end type="SOURCE" nodeId="8" navigable="false">      
       <attribute name="visitedURLs"/>      
       <multiplicity minimum="0" maximum="1"/>    
