@@ -5,14 +5,13 @@ import java.io.FileWriter;
 
 public class QueryInsert {
 	
-	String searchterm;
+	private String searchterm;
 	
 	public QueryInsert(String searchterm){
 		this.searchterm = searchterm;
-		insertQuery(searchterm);
 	}
 	
-	public static void insertQuery(String searchterm){
+	public  void insertQuery(){
 		try
 		{
 			FileWriter fstream = new FileWriter("Data/topics.txt");

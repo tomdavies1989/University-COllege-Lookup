@@ -196,8 +196,10 @@ public class Panda {
 		}
 		
 		if(args[0].equals("-q") || args[0].equals("--query") ){
-			try{
-				new QueryInsert(args[1]);
+			try
+			{
+				QueryInsert qi = new QueryInsert(args[1]);
+				qi.insertQuery();
 			}
 			catch(Exception e){e.printStackTrace();}
 		}
