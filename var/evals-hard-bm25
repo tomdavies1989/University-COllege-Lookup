@@ -1,0 +1,4162 @@
+401  -   tom germani 
+
+401 Stats:
+  Search Seconds:         0.289
+  DocName Seconds:        0.029
+  Num Points:         1,000.000
+  Num Good Points:       32.000
+  Max Good Points:      300.000
+  MRR:                    0.000
+  Recall:                 0.107
+  1-call:                 0.000
+  2-call:                 0.000
+  3-call:                 0.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.000
+  NDCG@10:                0.000
+  NDCG@15:                0.000
+  NDCG@20:                0.000
+  NDCG@35:                0.000
+  NDCG@50:                0.000
+  NDCG@70:                0.000
+  NDCG@100:               0.000
+  NDCG@200:               0.000
+  NDCG@250:               0.000
+  NDCG@400:               0.010
+  NDCG@500:               0.013
+  NDCG@600:               0.021
+  NDCG@700:               0.027
+  NDCG@1000:              0.028
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.000
+  Precision At 10:        0.000
+  Precision At 11:        0.000
+  Precision At 12:        0.000
+  Precision At 13:        0.000
+  Precision At 14:        0.000
+  Precision At 15:        0.000
+  Precision At 16:        0.000
+  Precision At 17:        0.000
+  Precision At 18:        0.000
+  Precision At 19:        0.000
+  Precision At 20:        0.000
+  Precision At 21:        0.000
+  Precision At 41:        0.000
+  Precision At 61:        0.000
+  Precision At 81:        0.000
+  Precision At 101:       0.000
+  Precision At 121:       0.000
+  Precision At 141:       0.000
+  Precision At 161:       0.000
+  Precision At 181:       0.000
+  Precision At 200:       0.000
+  Precision At 250:       0.000
+  Precision At 300:       0.003
+  Precision At 350:       0.011
+  Precision At 400:       0.012
+  Precision At 450:       0.011
+  Precision At 500:       0.016
+  Precision At 550:       0.022
+  Precision At 600:       0.025
+  Precision At 650:       0.023
+  Precision At 700:       0.031
+  Precision At 750:       0.032
+  Precision At 800:       0.031
+  Precision At 850:       0.031
+  Precision At 900:       0.032
+  Precision At 950:       0.033
+
+402  -   behavior genet 
+
+402 Stats:
+  Search Seconds:         0.030
+  DocName Seconds:        0.027
+  Num Points:         1,000.000
+  Num Good Points:       59.000
+  Max Good Points:       80.000
+  MRR:                    1.000
+  Recall:                 0.738
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.616
+  NDCG@10:                0.469
+  NDCG@15:                0.411
+  NDCG@20:                0.408
+  NDCG@35:                0.346
+  NDCG@50:                0.301
+  NDCG@70:                0.249
+  NDCG@100:               0.216
+  NDCG@200:               0.170
+  NDCG@250:               0.153
+  NDCG@400:               0.129
+  NDCG@500:               0.118
+  NDCG@600:               0.112
+  NDCG@700:               0.100
+  NDCG@1000:              0.079
+  Precision At 1:         1.000
+  Precision At 2:         0.500
+  Precision At 3:         0.333
+  Precision At 4:         0.500
+  Precision At 5:         0.600
+  Precision At 6:         0.500
+  Precision At 7:         0.429
+  Precision At 8:         0.500
+  Precision At 9:         0.444
+  Precision At 10:        0.400
+  Precision At 11:        0.455
+  Precision At 12:        0.417
+  Precision At 13:        0.385
+  Precision At 14:        0.357
+  Precision At 15:        0.333
+  Precision At 16:        0.312
+  Precision At 17:        0.294
+  Precision At 18:        0.278
+  Precision At 19:        0.316
+  Precision At 20:        0.350
+  Precision At 21:        0.381
+  Precision At 41:        0.268
+  Precision At 61:        0.213
+  Precision At 81:        0.173
+  Precision At 101:       0.158
+  Precision At 121:       0.165
+  Precision At 141:       0.149
+  Precision At 161:       0.149
+  Precision At 181:       0.138
+  Precision At 200:       0.130
+  Precision At 250:       0.116
+  Precision At 300:       0.110
+  Precision At 350:       0.109
+  Precision At 400:       0.100
+  Precision At 450:       0.098
+  Precision At 500:       0.092
+  Precision At 550:       0.093
+  Precision At 600:       0.088
+  Precision At 650:       0.083
+  Precision At 700:       0.077
+  Precision At 750:       0.072
+  Precision At 800:       0.070
+  Precision At 850:       0.066
+  Precision At 900:       0.062
+  Precision At 950:       0.061
+
+403  -   osteoporosi 
+
+403 Stats:
+  Search Seconds:         0.001
+  DocName Seconds:        0.003
+  Num Points:            85.000
+  Num Good Points:       21.000
+  Max Good Points:       21.000
+  MRR:                    1.000
+  Recall:                 1.000
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 1.000
+  7-call:                 1.000
+  8-call:                 1.000
+  9-call:                 1.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 1.000
+  NDCG@10:                0.922
+  NDCG@15:                0.807
+  NDCG@20:                0.705
+  NDCG@35:                0.636
+  NDCG@50:                0.500
+  NDCG@70:                0.407
+  NDCG@100:               0.000
+  NDCG@200:               0.000
+  NDCG@250:               0.000
+  NDCG@400:               0.000
+  NDCG@500:               0.000
+  NDCG@600:               0.000
+  NDCG@700:               0.000
+  NDCG@1000:              0.000
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         1.000
+  Precision At 5:         1.000
+  Precision At 6:         0.833
+  Precision At 7:         0.857
+  Precision At 8:         0.875
+  Precision At 9:         0.889
+  Precision At 10:        0.900
+  Precision At 11:        0.909
+  Precision At 12:        0.833
+  Precision At 13:        0.846
+  Precision At 14:        0.786
+  Precision At 15:        0.733
+  Precision At 16:        0.688
+  Precision At 17:        0.647
+  Precision At 18:        0.667
+  Precision At 19:        0.632
+  Precision At 20:        0.600
+  Precision At 21:        0.619
+  Precision At 41:        0.463
+  Precision At 61:        0.311
+  Precision At 81:        0.259
+
+404  -   ireland peac talk 
+
+404 Stats:
+  Search Seconds:         0.219
+  DocName Seconds:        0.020
+  Num Points:         1,000.000
+  Num Good Points:      110.000
+  Max Good Points:      142.000
+  MRR:                    0.000
+  Recall:                 0.775
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 0.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.000
+  NDCG@10:                0.148
+  NDCG@15:                0.161
+  NDCG@20:                0.134
+  NDCG@35:                0.215
+  NDCG@50:                0.284
+  NDCG@70:                0.266
+  NDCG@100:               0.251
+  NDCG@200:               0.219
+  NDCG@250:               0.232
+  NDCG@400:               0.200
+  NDCG@500:               0.187
+  NDCG@600:               0.174
+  NDCG@700:               0.157
+  NDCG@1000:              0.125
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.167
+  Precision At 7:         0.143
+  Precision At 8:         0.250
+  Precision At 9:         0.222
+  Precision At 10:        0.200
+  Precision At 11:        0.182
+  Precision At 12:        0.250
+  Precision At 13:        0.231
+  Precision At 14:        0.214
+  Precision At 15:        0.200
+  Precision At 16:        0.188
+  Precision At 17:        0.176
+  Precision At 18:        0.167
+  Precision At 19:        0.158
+  Precision At 20:        0.150
+  Precision At 21:        0.143
+  Precision At 41:        0.317
+  Precision At 61:        0.311
+  Precision At 81:        0.272
+  Precision At 101:       0.267
+  Precision At 121:       0.273
+  Precision At 141:       0.255
+  Precision At 161:       0.236
+  Precision At 181:       0.221
+  Precision At 200:       0.220
+  Precision At 250:       0.236
+  Precision At 300:       0.220
+  Precision At 350:       0.209
+  Precision At 400:       0.195
+  Precision At 450:       0.184
+  Precision At 500:       0.180
+  Precision At 550:       0.169
+  Precision At 600:       0.165
+  Precision At 650:       0.155
+  Precision At 700:       0.146
+  Precision At 750:       0.139
+  Precision At 800:       0.135
+  Precision At 850:       0.128
+  Precision At 900:       0.121
+  Precision At 950:       0.115
+
+405  -   cosmic event 
+
+405 Stats:
+  Search Seconds:         0.058
+  DocName Seconds:        0.015
+  Num Points:         1,000.000
+  Num Good Points:       13.000
+  Max Good Points:       38.000
+  MRR:                    0.333
+  Recall:                 0.342
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.301
+  NDCG@10:                0.347
+  NDCG@15:                0.269
+  NDCG@20:                0.224
+  NDCG@35:                0.155
+  NDCG@50:                0.136
+  NDCG@70:                0.118
+  NDCG@100:               0.099
+  NDCG@200:               0.067
+  NDCG@250:               0.060
+  NDCG@400:               0.048
+  NDCG@500:               0.040
+  NDCG@600:               0.035
+  NDCG@700:               0.031
+  NDCG@1000:              0.023
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.400
+  Precision At 6:         0.500
+  Precision At 7:         0.571
+  Precision At 8:         0.500
+  Precision At 9:         0.444
+  Precision At 10:        0.400
+  Precision At 11:        0.364
+  Precision At 12:        0.333
+  Precision At 13:        0.308
+  Precision At 14:        0.286
+  Precision At 15:        0.267
+  Precision At 16:        0.250
+  Precision At 17:        0.235
+  Precision At 18:        0.222
+  Precision At 19:        0.211
+  Precision At 20:        0.200
+  Precision At 21:        0.190
+  Precision At 41:        0.098
+  Precision At 61:        0.098
+  Precision At 81:        0.086
+  Precision At 101:       0.069
+  Precision At 121:       0.058
+  Precision At 141:       0.050
+  Precision At 161:       0.043
+  Precision At 181:       0.044
+  Precision At 200:       0.045
+  Precision At 250:       0.040
+  Precision At 300:       0.040
+  Precision At 350:       0.034
+  Precision At 400:       0.032
+  Precision At 450:       0.029
+  Precision At 500:       0.026
+  Precision At 550:       0.024
+  Precision At 600:       0.022
+  Precision At 650:       0.020
+  Precision At 700:       0.019
+  Precision At 750:       0.017
+  Precision At 800:       0.016
+  Precision At 850:       0.015
+  Precision At 900:       0.014
+  Precision At 950:       0.014
+
+406  -   parkinson diseas 
+
+406 Stats:
+  Search Seconds:         0.013
+  DocName Seconds:        0.015
+  Num Points:         1,000.000
+  Num Good Points:       13.000
+  Max Good Points:       13.000
+  MRR:                    1.000
+  Recall:                 1.000
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.553
+  NDCG@10:                0.432
+  NDCG@15:                0.428
+  NDCG@20:                0.390
+  NDCG@35:                0.291
+  NDCG@50:                0.242
+  NDCG@70:                0.213
+  NDCG@100:               0.189
+  NDCG@200:               0.114
+  NDCG@250:               0.096
+  NDCG@400:               0.067
+  NDCG@500:               0.056
+  NDCG@600:               0.048
+  NDCG@700:               0.043
+  NDCG@1000:              0.032
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         0.667
+  Precision At 4:         0.500
+  Precision At 5:         0.400
+  Precision At 6:         0.333
+  Precision At 7:         0.429
+  Precision At 8:         0.375
+  Precision At 9:         0.333
+  Precision At 10:        0.300
+  Precision At 11:        0.364
+  Precision At 12:        0.333
+  Precision At 13:        0.385
+  Precision At 14:        0.357
+  Precision At 15:        0.333
+  Precision At 16:        0.312
+  Precision At 17:        0.353
+  Precision At 18:        0.333
+  Precision At 19:        0.316
+  Precision At 20:        0.300
+  Precision At 21:        0.286
+  Precision At 41:        0.171
+  Precision At 61:        0.164
+  Precision At 81:        0.160
+  Precision At 101:       0.129
+  Precision At 121:       0.107
+  Precision At 141:       0.092
+  Precision At 161:       0.081
+  Precision At 181:       0.072
+  Precision At 200:       0.065
+  Precision At 250:       0.052
+  Precision At 300:       0.043
+  Precision At 350:       0.037
+  Precision At 400:       0.032
+  Precision At 450:       0.029
+  Precision At 500:       0.026
+  Precision At 550:       0.024
+  Precision At 600:       0.022
+  Precision At 650:       0.020
+  Precision At 700:       0.019
+  Precision At 750:       0.017
+  Precision At 800:       0.016
+  Precision At 850:       0.015
+  Precision At 900:       0.014
+  Precision At 950:       0.014
+
+407  -   poach wildlif preserv 
+
+407 Stats:
+  Search Seconds:         0.035
+  DocName Seconds:        0.012
+  Num Points:         1,000.000
+  Num Good Points:       46.000
+  Max Good Points:       68.000
+  MRR:                    1.000
+  Recall:                 0.676
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 1.000
+  7-call:                 1.000
+  8-call:                 1.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.869
+  NDCG@10:                0.836
+  NDCG@15:                0.695
+  NDCG@20:                0.647
+  NDCG@35:                0.551
+  NDCG@50:                0.462
+  NDCG@70:                0.428
+  NDCG@100:               0.355
+  NDCG@200:               0.237
+  NDCG@250:               0.206
+  NDCG@400:               0.152
+  NDCG@500:               0.127
+  NDCG@600:               0.113
+  NDCG@700:               0.100
+  NDCG@1000:              0.079
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         1.000
+  Precision At 5:         0.800
+  Precision At 6:         0.667
+  Precision At 7:         0.714
+  Precision At 8:         0.750
+  Precision At 9:         0.778
+  Precision At 10:        0.800
+  Precision At 11:        0.727
+  Precision At 12:        0.750
+  Precision At 13:        0.692
+  Precision At 14:        0.643
+  Precision At 15:        0.600
+  Precision At 16:        0.625
+  Precision At 17:        0.647
+  Precision At 18:        0.611
+  Precision At 19:        0.579
+  Precision At 20:        0.550
+  Precision At 21:        0.524
+  Precision At 41:        0.415
+  Precision At 61:        0.344
+  Precision At 81:        0.309
+  Precision At 101:       0.267
+  Precision At 121:       0.231
+  Precision At 141:       0.206
+  Precision At 161:       0.186
+  Precision At 181:       0.171
+  Precision At 200:       0.165
+  Precision At 250:       0.140
+  Precision At 300:       0.117
+  Precision At 350:       0.106
+  Precision At 400:       0.098
+  Precision At 450:       0.087
+  Precision At 500:       0.078
+  Precision At 550:       0.075
+  Precision At 600:       0.068
+  Precision At 650:       0.063
+  Precision At 700:       0.059
+  Precision At 750:       0.055
+  Precision At 800:       0.051
+  Precision At 850:       0.048
+  Precision At 900:       0.048
+  Precision At 950:       0.045
+
+408  -   tropic storm 
+
+408 Stats:
+  Search Seconds:         0.012
+  DocName Seconds:        0.011
+  Num Points:         1,000.000
+  Num Good Points:       61.000
+  Max Good Points:      118.000
+  MRR:                    1.000
+  Recall:                 0.517
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.723
+  NDCG@10:                0.469
+  NDCG@15:                0.407
+  NDCG@20:                0.372
+  NDCG@35:                0.338
+  NDCG@50:                0.295
+  NDCG@70:                0.265
+  NDCG@100:               0.213
+  NDCG@200:               0.187
+  NDCG@250:               0.161
+  NDCG@400:               0.141
+  NDCG@500:               0.128
+  NDCG@600:               0.113
+  NDCG@700:               0.100
+  NDCG@1000:              0.082
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         0.750
+  Precision At 5:         0.600
+  Precision At 6:         0.500
+  Precision At 7:         0.429
+  Precision At 8:         0.375
+  Precision At 9:         0.333
+  Precision At 10:        0.300
+  Precision At 11:        0.273
+  Precision At 12:        0.250
+  Precision At 13:        0.231
+  Precision At 14:        0.286
+  Precision At 15:        0.267
+  Precision At 16:        0.250
+  Precision At 17:        0.235
+  Precision At 18:        0.222
+  Precision At 19:        0.263
+  Precision At 20:        0.250
+  Precision At 21:        0.238
+  Precision At 41:        0.244
+  Precision At 61:        0.213
+  Precision At 81:        0.173
+  Precision At 101:       0.158
+  Precision At 121:       0.231
+  Precision At 141:       0.199
+  Precision At 161:       0.174
+  Precision At 181:       0.155
+  Precision At 200:       0.145
+  Precision At 250:       0.120
+  Precision At 300:       0.130
+  Precision At 350:       0.123
+  Precision At 400:       0.110
+  Precision At 450:       0.104
+  Precision At 500:       0.100
+  Precision At 550:       0.095
+  Precision At 600:       0.087
+  Precision At 650:       0.080
+  Precision At 700:       0.074
+  Precision At 750:       0.069
+  Precision At 800:       0.065
+  Precision At 850:       0.062
+  Precision At 900:       0.061
+  Precision At 950:       0.063
+
+409  -   legal pan am 
+
+409 Stats:
+  Search Seconds:         0.199
+  DocName Seconds:        0.013
+  Num Points:         1,000.000
+  Num Good Points:        9.000
+  Max Good Points:       22.000
+  MRR:                    0.250
+  Recall:                 0.409
+  1-call:                 1.000
+  2-call:                 0.000
+  3-call:                 0.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.146
+  NDCG@10:                0.095
+  NDCG@15:                0.073
+  NDCG@20:                0.061
+  NDCG@35:                0.042
+  NDCG@50:                0.048
+  NDCG@70:                0.038
+  NDCG@100:               0.037
+  NDCG@200:               0.026
+  NDCG@250:               0.025
+  NDCG@400:               0.020
+  NDCG@500:               0.016
+  NDCG@600:               0.016
+  NDCG@700:               0.014
+  NDCG@1000:              0.012
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.250
+  Precision At 5:         0.200
+  Precision At 6:         0.167
+  Precision At 7:         0.143
+  Precision At 8:         0.125
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.083
+  Precision At 13:        0.077
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.062
+  Precision At 17:        0.059
+  Precision At 18:        0.056
+  Precision At 19:        0.053
+  Precision At 20:        0.050
+  Precision At 21:        0.048
+  Precision At 41:        0.024
+  Precision At 61:        0.033
+  Precision At 81:        0.025
+  Precision At 101:       0.030
+  Precision At 121:       0.025
+  Precision At 141:       0.021
+  Precision At 161:       0.025
+  Precision At 181:       0.022
+  Precision At 200:       0.020
+  Precision At 250:       0.020
+  Precision At 300:       0.020
+  Precision At 350:       0.017
+  Precision At 400:       0.015
+  Precision At 450:       0.013
+  Precision At 500:       0.012
+  Precision At 550:       0.013
+  Precision At 600:       0.012
+  Precision At 650:       0.011
+  Precision At 700:       0.010
+  Precision At 750:       0.012
+  Precision At 800:       0.011
+  Precision At 850:       0.011
+  Precision At 900:       0.010
+  Precision At 950:       0.009
+
+410  -   schengen agreement 
+
+410 Stats:
+  Search Seconds:         0.092
+  DocName Seconds:        0.009
+  Num Points:         1,000.000
+  Num Good Points:       62.000
+  Max Good Points:       65.000
+  MRR:                    1.000
+  Recall:                 0.954
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 1.000
+  7-call:                 1.000
+  8-call:                 1.000
+  9-call:                 1.000
+  10-call:                1.000
+  NDCG@1:                 1.000
+  NDCG@5:                 1.000
+  NDCG@10:                1.000
+  NDCG@15:                1.000
+  NDCG@20:                1.000
+  NDCG@35:                0.939
+  NDCG@50:                0.910
+  NDCG@70:                0.814
+  NDCG@100:               0.701
+  NDCG@200:               0.421
+  NDCG@250:               0.356
+  NDCG@400:               0.248
+  NDCG@500:               0.208
+  NDCG@600:               0.180
+  NDCG@700:               0.159
+  NDCG@1000:              0.119
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         1.000
+  Precision At 5:         1.000
+  Precision At 6:         1.000
+  Precision At 7:         1.000
+  Precision At 8:         1.000
+  Precision At 9:         1.000
+  Precision At 10:        1.000
+  Precision At 11:        1.000
+  Precision At 12:        1.000
+  Precision At 13:        1.000
+  Precision At 14:        1.000
+  Precision At 15:        1.000
+  Precision At 16:        1.000
+  Precision At 17:        1.000
+  Precision At 18:        1.000
+  Precision At 19:        1.000
+  Precision At 20:        1.000
+  Precision At 21:        1.000
+  Precision At 41:        0.927
+  Precision At 61:        0.770
+  Precision At 81:        0.728
+  Precision At 101:       0.614
+  Precision At 121:       0.512
+  Precision At 141:       0.440
+  Precision At 161:       0.385
+  Precision At 181:       0.343
+  Precision At 200:       0.310
+  Precision At 250:       0.248
+  Precision At 300:       0.207
+  Precision At 350:       0.177
+  Precision At 400:       0.155
+  Precision At 450:       0.138
+  Precision At 500:       0.124
+  Precision At 550:       0.113
+  Precision At 600:       0.103
+  Precision At 650:       0.095
+  Precision At 700:       0.089
+  Precision At 750:       0.083
+  Precision At 800:       0.078
+  Precision At 850:       0.073
+  Precision At 900:       0.069
+  Precision At 950:       0.065
+
+411  -   salvag shipwreck treasur 
+
+411 Stats:
+  Search Seconds:         0.012
+  DocName Seconds:        0.010
+  Num Points:         1,000.000
+  Num Good Points:       20.000
+  Max Good Points:       27.000
+  MRR:                    1.000
+  Recall:                 0.741
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.723
+  NDCG@10:                0.469
+  NDCG@15:                0.364
+  NDCG@20:                0.368
+  NDCG@35:                0.297
+  NDCG@50:                0.262
+  NDCG@70:                0.208
+  NDCG@100:               0.169
+  NDCG@200:               0.114
+  NDCG@250:               0.096
+  NDCG@400:               0.067
+  NDCG@500:               0.058
+  NDCG@600:               0.055
+  NDCG@700:               0.051
+  NDCG@1000:              0.038
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         0.750
+  Precision At 5:         0.600
+  Precision At 6:         0.500
+  Precision At 7:         0.429
+  Precision At 8:         0.375
+  Precision At 9:         0.333
+  Precision At 10:        0.300
+  Precision At 11:        0.273
+  Precision At 12:        0.250
+  Precision At 13:        0.231
+  Precision At 14:        0.214
+  Precision At 15:        0.200
+  Precision At 16:        0.188
+  Precision At 17:        0.176
+  Precision At 18:        0.167
+  Precision At 19:        0.211
+  Precision At 20:        0.250
+  Precision At 21:        0.238
+  Precision At 41:        0.220
+  Precision At 61:        0.148
+  Precision At 81:        0.123
+  Precision At 101:       0.099
+  Precision At 121:       0.099
+  Precision At 141:       0.085
+  Precision At 161:       0.081
+  Precision At 181:       0.072
+  Precision At 200:       0.065
+  Precision At 250:       0.052
+  Precision At 300:       0.043
+  Precision At 350:       0.037
+  Precision At 400:       0.032
+  Precision At 450:       0.031
+  Precision At 500:       0.028
+  Precision At 550:       0.027
+  Precision At 600:       0.030
+  Precision At 650:       0.031
+  Precision At 700:       0.029
+  Precision At 750:       0.027
+  Precision At 800:       0.025
+  Precision At 850:       0.024
+  Precision At 900:       0.022
+  Precision At 950:       0.021
+
+412  -   airport secur 
+
+412 Stats:
+  Search Seconds:         0.172
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       72.000
+  Max Good Points:      123.000
+  MRR:                    0.333
+  Recall:                 0.585
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.170
+  NDCG@10:                0.262
+  NDCG@15:                0.203
+  NDCG@20:                0.203
+  NDCG@35:                0.262
+  NDCG@50:                0.277
+  NDCG@70:                0.272
+  NDCG@100:               0.256
+  NDCG@200:               0.207
+  NDCG@250:               0.197
+  NDCG@400:               0.157
+  NDCG@500:               0.140
+  NDCG@600:               0.124
+  NDCG@700:               0.109
+  NDCG@1000:              0.090
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.200
+  Precision At 6:         0.333
+  Precision At 7:         0.429
+  Precision At 8:         0.375
+  Precision At 9:         0.333
+  Precision At 10:        0.300
+  Precision At 11:        0.273
+  Precision At 12:        0.250
+  Precision At 13:        0.231
+  Precision At 14:        0.214
+  Precision At 15:        0.200
+  Precision At 16:        0.188
+  Precision At 17:        0.235
+  Precision At 18:        0.222
+  Precision At 19:        0.211
+  Precision At 20:        0.200
+  Precision At 21:        0.190
+  Precision At 41:        0.268
+  Precision At 61:        0.328
+  Precision At 81:        0.284
+  Precision At 101:       0.257
+  Precision At 121:       0.281
+  Precision At 141:       0.248
+  Precision At 161:       0.217
+  Precision At 181:       0.199
+  Precision At 200:       0.195
+  Precision At 250:       0.184
+  Precision At 300:       0.173
+  Precision At 350:       0.160
+  Precision At 400:       0.140
+  Precision At 450:       0.127
+  Precision At 500:       0.122
+  Precision At 550:       0.111
+  Precision At 600:       0.105
+  Precision At 650:       0.097
+  Precision At 700:       0.090
+  Precision At 750:       0.085
+  Precision At 800:       0.082
+  Precision At 850:       0.078
+  Precision At 900:       0.077
+  Precision At 950:       0.074
+
+413  -   steel product 
+
+413 Stats:
+  Search Seconds:         0.170
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       47.000
+  Max Good Points:       69.000
+  MRR:                    1.000
+  Recall:                 0.681
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.655
+  NDCG@10:                0.567
+  NDCG@15:                0.439
+  NDCG@20:                0.399
+  NDCG@35:                0.335
+  NDCG@50:                0.263
+  NDCG@70:                0.261
+  NDCG@100:               0.210
+  NDCG@200:               0.142
+  NDCG@250:               0.123
+  NDCG@400:               0.094
+  NDCG@500:               0.087
+  NDCG@600:               0.083
+  NDCG@700:               0.076
+  NDCG@1000:              0.065
+  Precision At 1:         1.000
+  Precision At 2:         0.500
+  Precision At 3:         0.667
+  Precision At 4:         0.750
+  Precision At 5:         0.600
+  Precision At 6:         0.667
+  Precision At 7:         0.571
+  Precision At 8:         0.500
+  Precision At 9:         0.444
+  Precision At 10:        0.500
+  Precision At 11:        0.455
+  Precision At 12:        0.417
+  Precision At 13:        0.385
+  Precision At 14:        0.357
+  Precision At 15:        0.333
+  Precision At 16:        0.312
+  Precision At 17:        0.294
+  Precision At 18:        0.333
+  Precision At 19:        0.316
+  Precision At 20:        0.300
+  Precision At 21:        0.286
+  Precision At 41:        0.220
+  Precision At 61:        0.213
+  Precision At 81:        0.185
+  Precision At 101:       0.149
+  Precision At 121:       0.124
+  Precision At 141:       0.106
+  Precision At 161:       0.112
+  Precision At 181:       0.099
+  Precision At 200:       0.095
+  Precision At 250:       0.080
+  Precision At 300:       0.070
+  Precision At 350:       0.069
+  Precision At 400:       0.060
+  Precision At 450:       0.060
+  Precision At 500:       0.058
+  Precision At 550:       0.058
+  Precision At 600:       0.058
+  Precision At 650:       0.057
+  Precision At 700:       0.053
+  Precision At 750:       0.049
+  Precision At 800:       0.051
+  Precision At 850:       0.049
+  Precision At 900:       0.047
+  Precision At 950:       0.049
+
+414  -   cuba sugar export 
+
+414 Stats:
+  Search Seconds:         0.101
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       36.000
+  Max Good Points:       39.000
+  MRR:                    1.000
+  Recall:                 0.923
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 0.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.509
+  NDCG@10:                0.330
+  NDCG@15:                0.345
+  NDCG@20:                0.321
+  NDCG@35:                0.286
+  NDCG@50:                0.239
+  NDCG@70:                0.220
+  NDCG@100:               0.187
+  NDCG@200:               0.145
+  NDCG@250:               0.135
+  NDCG@400:               0.104
+  NDCG@500:               0.091
+  NDCG@600:               0.080
+  NDCG@700:               0.070
+  NDCG@1000:              0.054
+  Precision At 1:         1.000
+  Precision At 2:         0.500
+  Precision At 3:         0.667
+  Precision At 4:         0.500
+  Precision At 5:         0.400
+  Precision At 6:         0.333
+  Precision At 7:         0.286
+  Precision At 8:         0.250
+  Precision At 9:         0.222
+  Precision At 10:        0.200
+  Precision At 11:        0.182
+  Precision At 12:        0.250
+  Precision At 13:        0.231
+  Precision At 14:        0.214
+  Precision At 15:        0.267
+  Precision At 16:        0.250
+  Precision At 17:        0.294
+  Precision At 18:        0.278
+  Precision At 19:        0.263
+  Precision At 20:        0.250
+  Precision At 21:        0.238
+  Precision At 41:        0.220
+  Precision At 61:        0.148
+  Precision At 81:        0.173
+  Precision At 101:       0.139
+  Precision At 121:       0.140
+  Precision At 141:       0.135
+  Precision At 161:       0.130
+  Precision At 181:       0.122
+  Precision At 200:       0.110
+  Precision At 250:       0.104
+  Precision At 300:       0.093
+  Precision At 350:       0.083
+  Precision At 400:       0.078
+  Precision At 450:       0.071
+  Precision At 500:       0.066
+  Precision At 550:       0.062
+  Precision At 600:       0.057
+  Precision At 650:       0.052
+  Precision At 700:       0.049
+  Precision At 750:       0.045
+  Precision At 800:       0.042
+  Precision At 850:       0.040
+  Precision At 900:       0.038
+  Precision At 950:       0.036
+
+415  -   drug golden triangl 
+
+415 Stats:
+  Search Seconds:         0.069
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       52.000
+  Max Good Points:      136.000
+  MRR:                    1.000
+  Recall:                 0.382
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 1.000
+  7-call:                 1.000
+  8-call:                 1.000
+  9-call:                 1.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 1.000
+  NDCG@10:                0.931
+  NDCG@15:                0.946
+  NDCG@20:                0.821
+  NDCG@35:                0.612
+  NDCG@50:                0.496
+  NDCG@70:                0.455
+  NDCG@100:               0.427
+  NDCG@200:               0.325
+  NDCG@250:               0.274
+  NDCG@400:               0.191
+  NDCG@500:               0.162
+  NDCG@600:               0.140
+  NDCG@700:               0.124
+  NDCG@1000:              0.093
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         1.000
+  Precision At 5:         1.000
+  Precision At 6:         1.000
+  Precision At 7:         1.000
+  Precision At 8:         0.875
+  Precision At 9:         0.889
+  Precision At 10:        0.900
+  Precision At 11:        0.909
+  Precision At 12:        0.917
+  Precision At 13:        0.923
+  Precision At 14:        0.929
+  Precision At 15:        0.933
+  Precision At 16:        0.875
+  Precision At 17:        0.824
+  Precision At 18:        0.778
+  Precision At 19:        0.789
+  Precision At 20:        0.750
+  Precision At 21:        0.714
+  Precision At 41:        0.439
+  Precision At 61:        0.328
+  Precision At 81:        0.321
+  Precision At 101:       0.337
+  Precision At 121:       0.322
+  Precision At 141:       0.305
+  Precision At 161:       0.286
+  Precision At 181:       0.254
+  Precision At 200:       0.255
+  Precision At 250:       0.204
+  Precision At 300:       0.170
+  Precision At 350:       0.146
+  Precision At 400:       0.128
+  Precision At 450:       0.113
+  Precision At 500:       0.104
+  Precision At 550:       0.095
+  Precision At 600:       0.087
+  Precision At 650:       0.080
+  Precision At 700:       0.074
+  Precision At 750:       0.069
+  Precision At 800:       0.065
+  Precision At 850:       0.061
+  Precision At 900:       0.058
+  Precision At 950:       0.055
+
+416  -   gorg project 
+
+416 Stats:
+  Search Seconds:         0.080
+  DocName Seconds:        0.007
+  Num Points:         1,000.000
+  Num Good Points:       40.000
+  Max Good Points:       42.000
+  MRR:                    0.500
+  Recall:                 0.952
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.345
+  NDCG@10:                0.433
+  NDCG@15:                0.382
+  NDCG@20:                0.418
+  NDCG@35:                0.352
+  NDCG@50:                0.348
+  NDCG@70:                0.318
+  NDCG@100:               0.277
+  NDCG@200:               0.210
+  NDCG@250:               0.187
+  NDCG@400:               0.132
+  NDCG@500:               0.111
+  NDCG@600:               0.096
+  NDCG@700:               0.085
+  NDCG@1000:              0.064
+  Precision At 1:         0.000
+  Precision At 2:         0.500
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.400
+  Precision At 6:         0.333
+  Precision At 7:         0.429
+  Precision At 8:         0.500
+  Precision At 9:         0.556
+  Precision At 10:        0.500
+  Precision At 11:        0.455
+  Precision At 12:        0.500
+  Precision At 13:        0.462
+  Precision At 14:        0.429
+  Precision At 15:        0.400
+  Precision At 16:        0.375
+  Precision At 17:        0.412
+  Precision At 18:        0.444
+  Precision At 19:        0.474
+  Precision At 20:        0.450
+  Precision At 21:        0.429
+  Precision At 41:        0.341
+  Precision At 61:        0.328
+  Precision At 81:        0.296
+  Precision At 101:       0.248
+  Precision At 121:       0.207
+  Precision At 141:       0.206
+  Precision At 161:       0.199
+  Precision At 181:       0.193
+  Precision At 200:       0.180
+  Precision At 250:       0.156
+  Precision At 300:       0.130
+  Precision At 350:       0.114
+  Precision At 400:       0.100
+  Precision At 450:       0.089
+  Precision At 500:       0.080
+  Precision At 550:       0.073
+  Precision At 600:       0.067
+  Precision At 650:       0.062
+  Precision At 700:       0.057
+  Precision At 750:       0.053
+  Precision At 800:       0.050
+  Precision At 850:       0.047
+  Precision At 900:       0.044
+  Precision At 950:       0.042
+
+417  -   creativ 
+
+417 Stats:
+  Search Seconds:         0.004
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       67.000
+  Max Good Points:       75.000
+  MRR:                    1.000
+  Recall:                 0.893
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.640
+  NDCG@10:                0.552
+  NDCG@15:                0.567
+  NDCG@20:                0.573
+  NDCG@35:                0.522
+  NDCG@50:                0.425
+  NDCG@70:                0.399
+  NDCG@100:               0.385
+  NDCG@200:               0.248
+  NDCG@250:               0.225
+  NDCG@400:               0.167
+  NDCG@500:               0.146
+  NDCG@600:               0.131
+  NDCG@700:               0.121
+  NDCG@1000:              0.097
+  Precision At 1:         1.000
+  Precision At 2:         0.500
+  Precision At 3:         0.667
+  Precision At 4:         0.500
+  Precision At 5:         0.600
+  Precision At 6:         0.500
+  Precision At 7:         0.571
+  Precision At 8:         0.500
+  Precision At 9:         0.444
+  Precision At 10:        0.500
+  Precision At 11:        0.545
+  Precision At 12:        0.583
+  Precision At 13:        0.615
+  Precision At 14:        0.571
+  Precision At 15:        0.533
+  Precision At 16:        0.562
+  Precision At 17:        0.588
+  Precision At 18:        0.556
+  Precision At 19:        0.526
+  Precision At 20:        0.550
+  Precision At 21:        0.571
+  Precision At 41:        0.439
+  Precision At 61:        0.344
+  Precision At 81:        0.358
+  Precision At 101:       0.337
+  Precision At 121:       0.281
+  Precision At 141:       0.248
+  Precision At 161:       0.230
+  Precision At 181:       0.210
+  Precision At 200:       0.190
+  Precision At 250:       0.172
+  Precision At 300:       0.157
+  Precision At 350:       0.134
+  Precision At 400:       0.120
+  Precision At 450:       0.111
+  Precision At 500:       0.104
+  Precision At 550:       0.096
+  Precision At 600:       0.092
+  Precision At 650:       0.086
+  Precision At 700:       0.086
+  Precision At 750:       0.083
+  Precision At 800:       0.080
+  Precision At 850:       0.076
+  Precision At 900:       0.072
+  Precision At 950:       0.069
+
+418  -   quilt incom 
+
+418 Stats:
+  Search Seconds:         0.053
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:      116.000
+  Max Good Points:      116.000
+  MRR:                    1.000
+  Recall:                 1.000
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 1.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.869
+  NDCG@10:                0.707
+  NDCG@15:                0.684
+  NDCG@20:                0.604
+  NDCG@35:                0.543
+  NDCG@50:                0.498
+  NDCG@70:                0.458
+  NDCG@100:               0.379
+  NDCG@200:               0.228
+  NDCG@250:               0.192
+  NDCG@400:               0.206
+  NDCG@500:               0.228
+  NDCG@600:               0.216
+  NDCG@700:               0.193
+  NDCG@1000:              0.145
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         1.000
+  Precision At 5:         0.800
+  Precision At 6:         0.667
+  Precision At 7:         0.714
+  Precision At 8:         0.750
+  Precision At 9:         0.667
+  Precision At 10:        0.600
+  Precision At 11:        0.636
+  Precision At 12:        0.667
+  Precision At 13:        0.615
+  Precision At 14:        0.571
+  Precision At 15:        0.600
+  Precision At 16:        0.562
+  Precision At 17:        0.588
+  Precision At 18:        0.556
+  Precision At 19:        0.526
+  Precision At 20:        0.500
+  Precision At 21:        0.476
+  Precision At 41:        0.439
+  Precision At 61:        0.410
+  Precision At 81:        0.370
+  Precision At 101:       0.297
+  Precision At 121:       0.248
+  Precision At 141:       0.213
+  Precision At 161:       0.186
+  Precision At 181:       0.166
+  Precision At 200:       0.150
+  Precision At 250:       0.120
+  Precision At 300:       0.113
+  Precision At 350:       0.160
+  Precision At 400:       0.165
+  Precision At 450:       0.191
+  Precision At 500:       0.200
+  Precision At 550:       0.207
+  Precision At 600:       0.190
+  Precision At 650:       0.177
+  Precision At 700:       0.166
+  Precision At 750:       0.155
+  Precision At 800:       0.145
+  Precision At 850:       0.136
+  Precision At 900:       0.129
+  Precision At 950:       0.122
+
+419  -   recycl automobil tire 
+
+419 Stats:
+  Search Seconds:         0.030
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       10.000
+  Max Good Points:       16.000
+  MRR:                    1.000
+  Recall:                 0.625
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 0.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.553
+  NDCG@10:                0.359
+  NDCG@15:                0.372
+  NDCG@20:                0.310
+  NDCG@35:                0.215
+  NDCG@50:                0.184
+  NDCG@70:                0.146
+  NDCG@100:               0.121
+  NDCG@200:               0.073
+  NDCG@250:               0.064
+  NDCG@400:               0.045
+  NDCG@500:               0.039
+  NDCG@600:               0.034
+  NDCG@700:               0.030
+  NDCG@1000:              0.024
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         0.667
+  Precision At 4:         0.500
+  Precision At 5:         0.400
+  Precision At 6:         0.333
+  Precision At 7:         0.286
+  Precision At 8:         0.250
+  Precision At 9:         0.222
+  Precision At 10:        0.200
+  Precision At 11:        0.273
+  Precision At 12:        0.333
+  Precision At 13:        0.308
+  Precision At 14:        0.286
+  Precision At 15:        0.267
+  Precision At 16:        0.250
+  Precision At 17:        0.235
+  Precision At 18:        0.222
+  Precision At 19:        0.211
+  Precision At 20:        0.200
+  Precision At 21:        0.190
+  Precision At 41:        0.122
+  Precision At 61:        0.082
+  Precision At 81:        0.062
+  Precision At 101:       0.059
+  Precision At 121:       0.050
+  Precision At 141:       0.043
+  Precision At 161:       0.037
+  Precision At 181:       0.033
+  Precision At 200:       0.030
+  Precision At 250:       0.028
+  Precision At 300:       0.023
+  Precision At 350:       0.020
+  Precision At 400:       0.018
+  Precision At 450:       0.018
+  Precision At 500:       0.016
+  Precision At 550:       0.015
+  Precision At 600:       0.013
+  Precision At 650:       0.012
+  Precision At 700:       0.011
+  Precision At 750:       0.013
+  Precision At 800:       0.012
+  Precision At 850:       0.012
+  Precision At 900:       0.011
+  Precision At 950:       0.011
+
+420  -   carbon monoxid poison 
+
+420 Stats:
+  Search Seconds:         0.013
+  DocName Seconds:        0.007
+  Num Points:         1,000.000
+  Num Good Points:       31.000
+  Max Good Points:       33.000
+  MRR:                    1.000
+  Recall:                 0.939
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 1.000
+  7-call:                 1.000
+  8-call:                 1.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.869
+  NDCG@10:                0.851
+  NDCG@15:                0.705
+  NDCG@20:                0.587
+  NDCG@35:                0.448
+  NDCG@50:                0.396
+  NDCG@70:                0.314
+  NDCG@100:               0.259
+  NDCG@200:               0.167
+  NDCG@250:               0.147
+  NDCG@400:               0.107
+  NDCG@500:               0.090
+  NDCG@600:               0.082
+  NDCG@700:               0.074
+  NDCG@1000:              0.058
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         1.000
+  Precision At 5:         0.800
+  Precision At 6:         0.833
+  Precision At 7:         0.857
+  Precision At 8:         0.875
+  Precision At 9:         0.889
+  Precision At 10:        0.800
+  Precision At 11:        0.727
+  Precision At 12:        0.667
+  Precision At 13:        0.692
+  Precision At 14:        0.643
+  Precision At 15:        0.600
+  Precision At 16:        0.562
+  Precision At 17:        0.529
+  Precision At 18:        0.500
+  Precision At 19:        0.474
+  Precision At 20:        0.450
+  Precision At 21:        0.429
+  Precision At 41:        0.317
+  Precision At 61:        0.230
+  Precision At 81:        0.173
+  Precision At 101:       0.158
+  Precision At 121:       0.132
+  Precision At 141:       0.113
+  Precision At 161:       0.099
+  Precision At 181:       0.105
+  Precision At 200:       0.095
+  Precision At 250:       0.084
+  Precision At 300:       0.077
+  Precision At 350:       0.066
+  Precision At 400:       0.058
+  Precision At 450:       0.051
+  Precision At 500:       0.046
+  Precision At 550:       0.047
+  Precision At 600:       0.043
+  Precision At 650:       0.042
+  Precision At 700:       0.040
+  Precision At 750:       0.039
+  Precision At 800:       0.036
+  Precision At 850:       0.036
+  Precision At 900:       0.034
+  Precision At 950:       0.033
+
+421  -   industri wast dispos 
+
+421 Stats:
+  Search Seconds:         0.522
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       43.000
+  Max Good Points:       83.000
+  MRR:                    0.000
+  Recall:                 0.518
+  1-call:                 0.000
+  2-call:                 0.000
+  3-call:                 0.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.000
+  NDCG@10:                0.000
+  NDCG@15:                0.048
+  NDCG@20:                0.074
+  NDCG@35:                0.113
+  NDCG@50:                0.089
+  NDCG@70:                0.081
+  NDCG@100:               0.063
+  NDCG@200:               0.050
+  NDCG@250:               0.048
+  NDCG@400:               0.060
+  NDCG@500:               0.060
+  NDCG@600:               0.059
+  NDCG@700:               0.055
+  NDCG@1000:              0.046
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.000
+  Precision At 10:        0.000
+  Precision At 11:        0.091
+  Precision At 12:        0.083
+  Precision At 13:        0.077
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.125
+  Precision At 17:        0.118
+  Precision At 18:        0.111
+  Precision At 19:        0.105
+  Precision At 20:        0.100
+  Precision At 21:        0.095
+  Precision At 41:        0.122
+  Precision At 61:        0.082
+  Precision At 81:        0.074
+  Precision At 101:       0.059
+  Precision At 121:       0.058
+  Precision At 141:       0.050
+  Precision At 161:       0.043
+  Precision At 181:       0.039
+  Precision At 200:       0.045
+  Precision At 250:       0.044
+  Precision At 300:       0.060
+  Precision At 350:       0.060
+  Precision At 400:       0.060
+  Precision At 450:       0.060
+  Precision At 500:       0.060
+  Precision At 550:       0.058
+  Precision At 600:       0.058
+  Precision At 650:       0.057
+  Precision At 700:       0.054
+  Precision At 750:       0.051
+  Precision At 800:       0.051
+  Precision At 850:       0.048
+  Precision At 900:       0.046
+  Precision At 950:       0.044
+
+422  -   art stolen forg 
+
+422 Stats:
+  Search Seconds:         0.071
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       96.000
+  Max Good Points:      152.000
+  MRR:                    0.333
+  Recall:                 0.632
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.447
+  NDCG@10:                0.435
+  NDCG@15:                0.383
+  NDCG@20:                0.452
+  NDCG@35:                0.395
+  NDCG@50:                0.368
+  NDCG@70:                0.354
+  NDCG@100:               0.356
+  NDCG@200:               0.260
+  NDCG@250:               0.266
+  NDCG@400:               0.231
+  NDCG@500:               0.197
+  NDCG@600:               0.183
+  NDCG@700:               0.161
+  NDCG@1000:              0.122
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.333
+  Precision At 4:         0.500
+  Precision At 5:         0.600
+  Precision At 6:         0.667
+  Precision At 7:         0.571
+  Precision At 8:         0.500
+  Precision At 9:         0.556
+  Precision At 10:        0.500
+  Precision At 11:        0.455
+  Precision At 12:        0.500
+  Precision At 13:        0.462
+  Precision At 14:        0.429
+  Precision At 15:        0.400
+  Precision At 16:        0.375
+  Precision At 17:        0.412
+  Precision At 18:        0.444
+  Precision At 19:        0.474
+  Precision At 20:        0.500
+  Precision At 21:        0.476
+  Precision At 41:        0.390
+  Precision At 61:        0.361
+  Precision At 81:        0.321
+  Precision At 101:       0.347
+  Precision At 121:       0.347
+  Precision At 141:       0.312
+  Precision At 161:       0.286
+  Precision At 181:       0.254
+  Precision At 200:       0.230
+  Precision At 250:       0.244
+  Precision At 300:       0.217
+  Precision At 350:       0.203
+  Precision At 400:       0.210
+  Precision At 450:       0.189
+  Precision At 500:       0.172
+  Precision At 550:       0.156
+  Precision At 600:       0.158
+  Precision At 650:       0.146
+  Precision At 700:       0.136
+  Precision At 750:       0.128
+  Precision At 800:       0.120
+  Precision At 850:       0.113
+  Precision At 900:       0.107
+  Precision At 950:       0.101
+
+423  -   milosev mirjana markov 
+
+423 Stats:
+  Search Seconds:         0.002
+  DocName Seconds:        0.007
+  Num Points:         1,000.000
+  Num Good Points:       20.000
+  Max Good Points:       21.000
+  MRR:                    1.000
+  Recall:                 0.952
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 1.000
+  7-call:                 1.000
+  8-call:                 1.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.830
+  NDCG@10:                0.812
+  NDCG@15:                0.854
+  NDCG@20:                0.744
+  NDCG@35:                0.560
+  NDCG@50:                0.441
+  NDCG@70:                0.360
+  NDCG@100:               0.279
+  NDCG@200:               0.168
+  NDCG@250:               0.142
+  NDCG@400:               0.103
+  NDCG@500:               0.088
+  NDCG@600:               0.076
+  NDCG@700:               0.067
+  NDCG@1000:              0.050
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         0.667
+  Precision At 4:         0.750
+  Precision At 5:         0.800
+  Precision At 6:         0.667
+  Precision At 7:         0.714
+  Precision At 8:         0.750
+  Precision At 9:         0.778
+  Precision At 10:        0.800
+  Precision At 11:        0.818
+  Precision At 12:        0.833
+  Precision At 13:        0.846
+  Precision At 14:        0.857
+  Precision At 15:        0.867
+  Precision At 16:        0.812
+  Precision At 17:        0.765
+  Precision At 18:        0.778
+  Precision At 19:        0.737
+  Precision At 20:        0.700
+  Precision At 21:        0.714
+  Precision At 41:        0.390
+  Precision At 61:        0.262
+  Precision At 81:        0.210
+  Precision At 101:       0.168
+  Precision At 121:       0.140
+  Precision At 141:       0.121
+  Precision At 161:       0.106
+  Precision At 181:       0.094
+  Precision At 200:       0.085
+  Precision At 250:       0.068
+  Precision At 300:       0.060
+  Precision At 350:       0.054
+  Precision At 400:       0.048
+  Precision At 450:       0.044
+  Precision At 500:       0.040
+  Precision At 550:       0.036
+  Precision At 600:       0.033
+  Precision At 650:       0.031
+  Precision At 700:       0.029
+  Precision At 750:       0.027
+  Precision At 800:       0.025
+  Precision At 850:       0.024
+  Precision At 900:       0.022
+  Precision At 950:       0.021
+
+424  -   suicid 
+
+424 Stats:
+  Search Seconds:         0.002
+  DocName Seconds:        0.007
+  Num Points:         1,000.000
+  Num Good Points:      119.000
+  Max Good Points:      171.000
+  MRR:                    0.000
+  Recall:                 0.696
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.000
+  NDCG@10:                0.208
+  NDCG@15:                0.161
+  NDCG@20:                0.168
+  NDCG@35:                0.237
+  NDCG@50:                0.243
+  NDCG@70:                0.255
+  NDCG@100:               0.242
+  NDCG@200:               0.223
+  NDCG@250:               0.210
+  NDCG@400:               0.180
+  NDCG@500:               0.163
+  NDCG@600:               0.153
+  NDCG@700:               0.144
+  NDCG@1000:              0.130
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.167
+  Precision At 7:         0.143
+  Precision At 8:         0.125
+  Precision At 9:         0.222
+  Precision At 10:        0.300
+  Precision At 11:        0.273
+  Precision At 12:        0.250
+  Precision At 13:        0.231
+  Precision At 14:        0.214
+  Precision At 15:        0.200
+  Precision At 16:        0.188
+  Precision At 17:        0.176
+  Precision At 18:        0.222
+  Precision At 19:        0.211
+  Precision At 20:        0.200
+  Precision At 21:        0.190
+  Precision At 41:        0.268
+  Precision At 61:        0.295
+  Precision At 81:        0.247
+  Precision At 101:       0.257
+  Precision At 121:       0.273
+  Precision At 141:       0.262
+  Precision At 161:       0.255
+  Precision At 181:       0.232
+  Precision At 200:       0.225
+  Precision At 250:       0.208
+  Precision At 300:       0.193
+  Precision At 350:       0.177
+  Precision At 400:       0.172
+  Precision At 450:       0.160
+  Precision At 500:       0.152
+  Precision At 550:       0.147
+  Precision At 600:       0.142
+  Precision At 650:       0.135
+  Precision At 700:       0.133
+  Precision At 750:       0.129
+  Precision At 800:       0.128
+  Precision At 850:       0.128
+  Precision At 900:       0.124
+  Precision At 950:       0.123
+
+425  -   counterfeit monei 
+
+425 Stats:
+  Search Seconds:         0.116
+  DocName Seconds:        0.009
+  Num Points:         1,000.000
+  Num Good Points:      143.000
+  Max Good Points:      162.000
+  MRR:                    1.000
+  Recall:                 0.883
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 1.000
+  7-call:                 1.000
+  8-call:                 1.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 1.000
+  NDCG@10:                0.857
+  NDCG@15:                0.889
+  NDCG@20:                0.808
+  NDCG@35:                0.724
+  NDCG@50:                0.653
+  NDCG@70:                0.600
+  NDCG@100:               0.571
+  NDCG@200:               0.456
+  NDCG@250:               0.419
+  NDCG@400:               0.375
+  NDCG@500:               0.323
+  NDCG@600:               0.289
+  NDCG@700:               0.255
+  NDCG@1000:              0.191
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         1.000
+  Precision At 5:         1.000
+  Precision At 6:         1.000
+  Precision At 7:         0.857
+  Precision At 8:         0.750
+  Precision At 9:         0.778
+  Precision At 10:        0.800
+  Precision At 11:        0.818
+  Precision At 12:        0.833
+  Precision At 13:        0.846
+  Precision At 14:        0.857
+  Precision At 15:        0.867
+  Precision At 16:        0.875
+  Precision At 17:        0.824
+  Precision At 18:        0.778
+  Precision At 19:        0.789
+  Precision At 20:        0.750
+  Precision At 21:        0.714
+  Precision At 41:        0.561
+  Precision At 61:        0.557
+  Precision At 81:        0.519
+  Precision At 101:       0.505
+  Precision At 121:       0.479
+  Precision At 141:       0.475
+  Precision At 161:       0.447
+  Precision At 181:       0.420
+  Precision At 200:       0.395
+  Precision At 250:       0.360
+  Precision At 300:       0.337
+  Precision At 350:       0.343
+  Precision At 400:       0.328
+  Precision At 450:       0.298
+  Precision At 500:       0.272
+  Precision At 550:       0.253
+  Precision At 600:       0.238
+  Precision At 650:       0.220
+  Precision At 700:       0.204
+  Precision At 750:       0.191
+  Precision At 800:       0.179
+  Precision At 850:       0.168
+  Precision At 900:       0.159
+  Precision At 950:       0.151
+
+426  -   law enforc dog 
+
+426 Stats:
+  Search Seconds:         0.163
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       37.000
+  Max Good Points:      202.000
+  MRR:                    0.333
+  Recall:                 0.183
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.170
+  NDCG@10:                0.319
+  NDCG@15:                0.338
+  NDCG@20:                0.347
+  NDCG@35:                0.283
+  NDCG@50:                0.237
+  NDCG@70:                0.209
+  NDCG@100:               0.162
+  NDCG@200:               0.117
+  NDCG@250:               0.102
+  NDCG@400:               0.077
+  NDCG@500:               0.071
+  NDCG@600:               0.063
+  NDCG@700:               0.060
+  NDCG@1000:              0.050
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.200
+  Precision At 6:         0.167
+  Precision At 7:         0.286
+  Precision At 8:         0.375
+  Precision At 9:         0.444
+  Precision At 10:        0.400
+  Precision At 11:        0.455
+  Precision At 12:        0.417
+  Precision At 13:        0.385
+  Precision At 14:        0.357
+  Precision At 15:        0.400
+  Precision At 16:        0.375
+  Precision At 17:        0.353
+  Precision At 18:        0.389
+  Precision At 19:        0.421
+  Precision At 20:        0.400
+  Precision At 21:        0.429
+  Precision At 41:        0.268
+  Precision At 61:        0.197
+  Precision At 81:        0.160
+  Precision At 101:       0.129
+  Precision At 121:       0.116
+  Precision At 141:       0.106
+  Precision At 161:       0.106
+  Precision At 181:       0.094
+  Precision At 200:       0.090
+  Precision At 250:       0.076
+  Precision At 300:       0.073
+  Precision At 350:       0.063
+  Precision At 400:       0.055
+  Precision At 450:       0.056
+  Precision At 500:       0.052
+  Precision At 550:       0.047
+  Precision At 600:       0.045
+  Precision At 650:       0.046
+  Precision At 700:       0.044
+  Precision At 750:       0.041
+  Precision At 800:       0.040
+  Precision At 850:       0.040
+  Precision At 900:       0.038
+  Precision At 950:       0.038
+
+427  -   uv damag ey 
+
+427 Stats:
+  Search Seconds:         0.080
+  DocName Seconds:        0.007
+  Num Points:         1,000.000
+  Num Good Points:       22.000
+  Max Good Points:       50.000
+  MRR:                    1.000
+  Recall:                 0.440
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.616
+  NDCG@10:                0.543
+  NDCG@15:                0.463
+  NDCG@20:                0.386
+  NDCG@35:                0.310
+  NDCG@50:                0.272
+  NDCG@70:                0.236
+  NDCG@100:               0.198
+  NDCG@200:               0.127
+  NDCG@250:               0.110
+  NDCG@400:               0.083
+  NDCG@500:               0.069
+  NDCG@600:               0.061
+  NDCG@700:               0.055
+  NDCG@1000:              0.042
+  Precision At 1:         1.000
+  Precision At 2:         0.500
+  Precision At 3:         0.333
+  Precision At 4:         0.500
+  Precision At 5:         0.600
+  Precision At 6:         0.500
+  Precision At 7:         0.571
+  Precision At 8:         0.625
+  Precision At 9:         0.556
+  Precision At 10:        0.500
+  Precision At 11:        0.455
+  Precision At 12:        0.417
+  Precision At 13:        0.385
+  Precision At 14:        0.357
+  Precision At 15:        0.400
+  Precision At 16:        0.375
+  Precision At 17:        0.353
+  Precision At 18:        0.333
+  Precision At 19:        0.316
+  Precision At 20:        0.300
+  Precision At 21:        0.286
+  Precision At 41:        0.195
+  Precision At 61:        0.180
+  Precision At 81:        0.148
+  Precision At 101:       0.139
+  Precision At 121:       0.116
+  Precision At 141:       0.099
+  Precision At 161:       0.087
+  Precision At 181:       0.088
+  Precision At 200:       0.080
+  Precision At 250:       0.068
+  Precision At 300:       0.057
+  Precision At 350:       0.057
+  Precision At 400:       0.050
+  Precision At 450:       0.044
+  Precision At 500:       0.040
+  Precision At 550:       0.036
+  Precision At 600:       0.035
+  Precision At 650:       0.032
+  Precision At 700:       0.031
+  Precision At 750:       0.029
+  Precision At 800:       0.028
+  Precision At 850:       0.026
+  Precision At 900:       0.024
+  Precision At 950:       0.023
+
+428  -   declin birth rate 
+
+428 Stats:
+  Search Seconds:         0.236
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       82.000
+  Max Good Points:      118.000
+  MRR:                    1.000
+  Recall:                 0.695
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.655
+  NDCG@10:                0.565
+  NDCG@15:                0.575
+  NDCG@20:                0.544
+  NDCG@35:                0.461
+  NDCG@50:                0.448
+  NDCG@70:                0.396
+  NDCG@100:               0.345
+  NDCG@200:               0.276
+  NDCG@250:               0.252
+  NDCG@400:               0.204
+  NDCG@500:               0.181
+  NDCG@600:               0.159
+  NDCG@700:               0.144
+  NDCG@1000:              0.112
+  Precision At 1:         1.000
+  Precision At 2:         0.500
+  Precision At 3:         0.667
+  Precision At 4:         0.750
+  Precision At 5:         0.600
+  Precision At 6:         0.500
+  Precision At 7:         0.571
+  Precision At 8:         0.500
+  Precision At 9:         0.556
+  Precision At 10:        0.500
+  Precision At 11:        0.545
+  Precision At 12:        0.583
+  Precision At 13:        0.538
+  Precision At 14:        0.571
+  Precision At 15:        0.533
+  Precision At 16:        0.500
+  Precision At 17:        0.471
+  Precision At 18:        0.500
+  Precision At 19:        0.474
+  Precision At 20:        0.500
+  Precision At 21:        0.476
+  Precision At 41:        0.415
+  Precision At 61:        0.344
+  Precision At 81:        0.333
+  Precision At 101:       0.287
+  Precision At 121:       0.273
+  Precision At 141:       0.270
+  Precision At 161:       0.248
+  Precision At 181:       0.232
+  Precision At 200:       0.230
+  Precision At 250:       0.208
+  Precision At 300:       0.190
+  Precision At 350:       0.177
+  Precision At 400:       0.165
+  Precision At 450:       0.158
+  Precision At 500:       0.144
+  Precision At 550:       0.131
+  Precision At 600:       0.123
+  Precision At 650:       0.118
+  Precision At 700:       0.110
+  Precision At 750:       0.107
+  Precision At 800:       0.101
+  Precision At 850:       0.095
+  Precision At 900:       0.091
+  Precision At 950:       0.086
+
+429  -   legionnair diseas 
+
+429 Stats:
+  Search Seconds:         0.011
+  DocName Seconds:        0.007
+  Num Points:         1,000.000
+  Num Good Points:       11.000
+  Max Good Points:       11.000
+  MRR:                    0.250
+  Recall:                 1.000
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.277
+  NDCG@10:                0.310
+  NDCG@15:                0.326
+  NDCG@20:                0.304
+  NDCG@35:                0.273
+  NDCG@50:                0.229
+  NDCG@70:                0.182
+  NDCG@100:               0.141
+  NDCG@200:               0.085
+  NDCG@250:               0.072
+  NDCG@400:               0.050
+  NDCG@500:               0.042
+  NDCG@600:               0.036
+  NDCG@700:               0.032
+  NDCG@1000:              0.024
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.250
+  Precision At 5:         0.400
+  Precision At 6:         0.333
+  Precision At 7:         0.286
+  Precision At 8:         0.250
+  Precision At 9:         0.333
+  Precision At 10:        0.400
+  Precision At 11:        0.364
+  Precision At 12:        0.333
+  Precision At 13:        0.308
+  Precision At 14:        0.357
+  Precision At 15:        0.400
+  Precision At 16:        0.375
+  Precision At 17:        0.353
+  Precision At 18:        0.333
+  Precision At 19:        0.316
+  Precision At 20:        0.350
+  Precision At 21:        0.333
+  Precision At 41:        0.268
+  Precision At 61:        0.180
+  Precision At 81:        0.136
+  Precision At 101:       0.109
+  Precision At 121:       0.091
+  Precision At 141:       0.078
+  Precision At 161:       0.068
+  Precision At 181:       0.061
+  Precision At 200:       0.055
+  Precision At 250:       0.044
+  Precision At 300:       0.037
+  Precision At 350:       0.031
+  Precision At 400:       0.028
+  Precision At 450:       0.024
+  Precision At 500:       0.022
+  Precision At 550:       0.020
+  Precision At 600:       0.018
+  Precision At 650:       0.017
+  Precision At 700:       0.016
+  Precision At 750:       0.015
+  Precision At 800:       0.014
+  Precision At 850:       0.013
+  Precision At 900:       0.012
+  Precision At 950:       0.012
+
+430  -   killer bee attack 
+
+430 Stats:
+  Search Seconds:         0.065
+  DocName Seconds:        0.007
+  Num Points:         1,000.000
+  Num Good Points:        6.000
+  Max Good Points:        6.000
+  MRR:                    1.000
+  Recall:                 1.000
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.723
+  NDCG@10:                0.469
+  NDCG@15:                0.411
+  NDCG@20:                0.342
+  NDCG@35:                0.260
+  NDCG@50:                0.204
+  NDCG@70:                0.162
+  NDCG@100:               0.126
+  NDCG@200:               0.080
+  NDCG@250:               0.067
+  NDCG@400:               0.047
+  NDCG@500:               0.039
+  NDCG@600:               0.034
+  NDCG@700:               0.030
+  NDCG@1000:              0.023
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         0.750
+  Precision At 5:         0.600
+  Precision At 6:         0.500
+  Precision At 7:         0.429
+  Precision At 8:         0.375
+  Precision At 9:         0.333
+  Precision At 10:        0.300
+  Precision At 11:        0.364
+  Precision At 12:        0.333
+  Precision At 13:        0.308
+  Precision At 14:        0.286
+  Precision At 15:        0.267
+  Precision At 16:        0.250
+  Precision At 17:        0.235
+  Precision At 18:        0.222
+  Precision At 19:        0.211
+  Precision At 20:        0.200
+  Precision At 21:        0.238
+  Precision At 41:        0.122
+  Precision At 61:        0.082
+  Precision At 81:        0.062
+  Precision At 101:       0.050
+  Precision At 121:       0.041
+  Precision At 141:       0.035
+  Precision At 161:       0.037
+  Precision At 181:       0.033
+  Precision At 200:       0.030
+  Precision At 250:       0.024
+  Precision At 300:       0.020
+  Precision At 350:       0.017
+  Precision At 400:       0.015
+  Precision At 450:       0.013
+  Precision At 500:       0.012
+  Precision At 550:       0.011
+  Precision At 600:       0.010
+  Precision At 650:       0.009
+  Precision At 700:       0.009
+  Precision At 750:       0.008
+  Precision At 800:       0.008
+  Precision At 850:       0.007
+  Precision At 900:       0.007
+  Precision At 950:       0.006
+
+431  -   robot technolog 
+
+431 Stats:
+  Search Seconds:         0.050
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:      105.000
+  Max Good Points:      130.000
+  MRR:                    1.000
+  Recall:                 0.808
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 1.000
+  7-call:                 1.000
+  8-call:                 1.000
+  9-call:                 1.000
+  10-call:                1.000
+  NDCG@1:                 1.000
+  NDCG@5:                 1.000
+  NDCG@10:                1.000
+  NDCG@15:                0.952
+  NDCG@20:                0.858
+  NDCG@35:                0.820
+  NDCG@50:                0.787
+  NDCG@70:                0.738
+  NDCG@100:               0.664
+  NDCG@200:               0.467
+  NDCG@250:               0.413
+  NDCG@400:               0.316
+  NDCG@500:               0.278
+  NDCG@600:               0.241
+  NDCG@700:               0.213
+  NDCG@1000:              0.160
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         1.000
+  Precision At 5:         1.000
+  Precision At 6:         1.000
+  Precision At 7:         1.000
+  Precision At 8:         1.000
+  Precision At 9:         1.000
+  Precision At 10:        1.000
+  Precision At 11:        0.909
+  Precision At 12:        0.917
+  Precision At 13:        0.923
+  Precision At 14:        0.929
+  Precision At 15:        0.933
+  Precision At 16:        0.875
+  Precision At 17:        0.824
+  Precision At 18:        0.778
+  Precision At 19:        0.789
+  Precision At 20:        0.800
+  Precision At 21:        0.810
+  Precision At 41:        0.756
+  Precision At 61:        0.721
+  Precision At 81:        0.667
+  Precision At 101:       0.594
+  Precision At 121:       0.521
+  Precision At 141:       0.482
+  Precision At 161:       0.447
+  Precision At 181:       0.414
+  Precision At 200:       0.385
+  Precision At 250:       0.332
+  Precision At 300:       0.297
+  Precision At 350:       0.269
+  Precision At 400:       0.242
+  Precision At 450:       0.227
+  Precision At 500:       0.210
+  Precision At 550:       0.191
+  Precision At 600:       0.175
+  Precision At 650:       0.162
+  Precision At 700:       0.150
+  Precision At 750:       0.140
+  Precision At 800:       0.131
+  Precision At 850:       0.124
+  Precision At 900:       0.117
+  Precision At 950:       0.111
+
+432  -   profil motorist polic 
+
+432 Stats:
+  Search Seconds:         0.089
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:        3.000
+  Max Good Points:       28.000
+  MRR:                    0.000
+  Recall:                 0.107
+  1-call:                 0.000
+  2-call:                 0.000
+  3-call:                 0.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.000
+  NDCG@10:                0.000
+  NDCG@15:                0.000
+  NDCG@20:                0.000
+  NDCG@35:                0.000
+  NDCG@50:                0.000
+  NDCG@70:                0.000
+  NDCG@100:               0.015
+  NDCG@200:               0.013
+  NDCG@250:               0.011
+  NDCG@400:               0.008
+  NDCG@500:               0.006
+  NDCG@600:               0.006
+  NDCG@700:               0.005
+  NDCG@1000:              0.004
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.000
+  Precision At 10:        0.000
+  Precision At 11:        0.000
+  Precision At 12:        0.000
+  Precision At 13:        0.000
+  Precision At 14:        0.000
+  Precision At 15:        0.000
+  Precision At 16:        0.000
+  Precision At 17:        0.000
+  Precision At 18:        0.000
+  Precision At 19:        0.000
+  Precision At 20:        0.000
+  Precision At 21:        0.000
+  Precision At 41:        0.000
+  Precision At 61:        0.000
+  Precision At 81:        0.000
+  Precision At 101:       0.020
+  Precision At 121:       0.025
+  Precision At 141:       0.021
+  Precision At 161:       0.019
+  Precision At 181:       0.017
+  Precision At 200:       0.015
+  Precision At 250:       0.012
+  Precision At 300:       0.010
+  Precision At 350:       0.009
+  Precision At 400:       0.008
+  Precision At 450:       0.007
+  Precision At 500:       0.006
+  Precision At 550:       0.005
+  Precision At 600:       0.005
+  Precision At 650:       0.005
+  Precision At 700:       0.004
+  Precision At 750:       0.004
+  Precision At 800:       0.004
+  Precision At 850:       0.004
+  Precision At 900:       0.003
+  Precision At 950:       0.003
+
+433  -   greek philosophi stoicism 
+
+433 Stats:
+  Search Seconds:         0.017
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:        3.000
+  Max Good Points:       13.000
+  MRR:                    0.000
+  Recall:                 0.231
+  1-call:                 1.000
+  2-call:                 0.000
+  3-call:                 0.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.000
+  NDCG@10:                0.069
+  NDCG@15:                0.054
+  NDCG@20:                0.080
+  NDCG@35:                0.055
+  NDCG@50:                0.043
+  NDCG@70:                0.045
+  NDCG@100:               0.035
+  NDCG@200:               0.021
+  NDCG@250:               0.018
+  NDCG@400:               0.012
+  NDCG@500:               0.010
+  NDCG@600:               0.009
+  NDCG@700:               0.008
+  NDCG@1000:              0.006
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.125
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.083
+  Precision At 13:        0.077
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.125
+  Precision At 17:        0.118
+  Precision At 18:        0.111
+  Precision At 19:        0.105
+  Precision At 20:        0.100
+  Precision At 21:        0.095
+  Precision At 41:        0.049
+  Precision At 61:        0.033
+  Precision At 81:        0.037
+  Precision At 101:       0.030
+  Precision At 121:       0.025
+  Precision At 141:       0.021
+  Precision At 161:       0.019
+  Precision At 181:       0.017
+  Precision At 200:       0.015
+  Precision At 250:       0.012
+  Precision At 300:       0.010
+  Precision At 350:       0.009
+  Precision At 400:       0.008
+  Precision At 450:       0.007
+  Precision At 500:       0.006
+  Precision At 550:       0.005
+  Precision At 600:       0.005
+  Precision At 650:       0.005
+  Precision At 700:       0.004
+  Precision At 750:       0.004
+  Precision At 800:       0.004
+  Precision At 850:       0.004
+  Precision At 900:       0.003
+  Precision At 950:       0.003
+
+434  -   estonia economi 
+
+434 Stats:
+  Search Seconds:         0.079
+  DocName Seconds:        0.007
+  Num Points:         1,000.000
+  Num Good Points:      265.000
+  Max Good Points:      347.000
+  MRR:                    1.000
+  Recall:                 0.764
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 1.000
+  7-call:                 1.000
+  8-call:                 1.000
+  9-call:                 1.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 1.000
+  NDCG@10:                0.934
+  NDCG@15:                0.903
+  NDCG@20:                0.850
+  NDCG@35:                0.773
+  NDCG@50:                0.751
+  NDCG@70:                0.740
+  NDCG@100:               0.702
+  NDCG@200:               0.589
+  NDCG@250:               0.560
+  NDCG@400:               0.461
+  NDCG@500:               0.421
+  NDCG@600:               0.384
+  NDCG@700:               0.365
+  NDCG@1000:              0.310
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         1.000
+  Precision At 5:         1.000
+  Precision At 6:         1.000
+  Precision At 7:         1.000
+  Precision At 8:         1.000
+  Precision At 9:         0.889
+  Precision At 10:        0.900
+  Precision At 11:        0.909
+  Precision At 12:        0.833
+  Precision At 13:        0.846
+  Precision At 14:        0.857
+  Precision At 15:        0.867
+  Precision At 16:        0.812
+  Precision At 17:        0.765
+  Precision At 18:        0.778
+  Precision At 19:        0.789
+  Precision At 20:        0.800
+  Precision At 21:        0.810
+  Precision At 41:        0.732
+  Precision At 61:        0.689
+  Precision At 81:        0.679
+  Precision At 101:       0.653
+  Precision At 121:       0.603
+  Precision At 141:       0.596
+  Precision At 161:       0.553
+  Precision At 181:       0.558
+  Precision At 200:       0.540
+  Precision At 250:       0.512
+  Precision At 300:       0.460
+  Precision At 350:       0.429
+  Precision At 400:       0.408
+  Precision At 450:       0.391
+  Precision At 500:       0.368
+  Precision At 550:       0.353
+  Precision At 600:       0.332
+  Precision At 650:       0.323
+  Precision At 700:       0.316
+  Precision At 750:       0.312
+  Precision At 800:       0.299
+  Precision At 850:       0.287
+  Precision At 900:       0.278
+  Precision At 950:       0.269
+
+435  -   curb popul growth 
+
+435 Stats:
+  Search Seconds:         0.135
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       80.000
+  Max Good Points:      117.000
+  MRR:                    0.333
+  Recall:                 0.684
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 0.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.170
+  NDCG@10:                0.183
+  NDCG@15:                0.190
+  NDCG@20:                0.193
+  NDCG@35:                0.196
+  NDCG@50:                0.183
+  NDCG@70:                0.198
+  NDCG@100:               0.161
+  NDCG@200:               0.145
+  NDCG@250:               0.151
+  NDCG@400:               0.146
+  NDCG@500:               0.129
+  NDCG@600:               0.121
+  NDCG@700:               0.110
+  NDCG@1000:              0.091
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.200
+  Precision At 6:         0.167
+  Precision At 7:         0.286
+  Precision At 8:         0.250
+  Precision At 9:         0.222
+  Precision At 10:        0.200
+  Precision At 11:        0.273
+  Precision At 12:        0.250
+  Precision At 13:        0.231
+  Precision At 14:        0.214
+  Precision At 15:        0.200
+  Precision At 16:        0.250
+  Precision At 17:        0.235
+  Precision At 18:        0.222
+  Precision At 19:        0.211
+  Precision At 20:        0.200
+  Precision At 21:        0.238
+  Precision At 41:        0.220
+  Precision At 61:        0.230
+  Precision At 81:        0.185
+  Precision At 101:       0.149
+  Precision At 121:       0.149
+  Precision At 141:       0.156
+  Precision At 161:       0.149
+  Precision At 181:       0.144
+  Precision At 200:       0.135
+  Precision At 250:       0.144
+  Precision At 300:       0.140
+  Precision At 350:       0.149
+  Precision At 400:       0.140
+  Precision At 450:       0.129
+  Precision At 500:       0.120
+  Precision At 550:       0.115
+  Precision At 600:       0.112
+  Precision At 650:       0.105
+  Precision At 700:       0.100
+  Precision At 750:       0.095
+  Precision At 800:       0.094
+  Precision At 850:       0.091
+  Precision At 900:       0.087
+  Precision At 950:       0.083
+
+436  -   railwai accid 
+
+436 Stats:
+  Search Seconds:         0.026
+  DocName Seconds:        0.007
+  Num Points:         1,000.000
+  Num Good Points:       30.000
+  Max Good Points:      180.000
+  MRR:                    0.333
+  Recall:                 0.167
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.301
+  NDCG@10:                0.261
+  NDCG@15:                0.203
+  NDCG@20:                0.237
+  NDCG@35:                0.227
+  NDCG@50:                0.234
+  NDCG@70:                0.228
+  NDCG@100:               0.199
+  NDCG@200:               0.140
+  NDCG@250:               0.118
+  NDCG@400:               0.089
+  NDCG@500:               0.074
+  NDCG@600:               0.066
+  NDCG@700:               0.059
+  NDCG@1000:              0.045
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.400
+  Precision At 6:         0.333
+  Precision At 7:         0.286
+  Precision At 8:         0.250
+  Precision At 9:         0.333
+  Precision At 10:        0.300
+  Precision At 11:        0.273
+  Precision At 12:        0.250
+  Precision At 13:        0.231
+  Precision At 14:        0.214
+  Precision At 15:        0.200
+  Precision At 16:        0.250
+  Precision At 17:        0.235
+  Precision At 18:        0.278
+  Precision At 19:        0.263
+  Precision At 20:        0.250
+  Precision At 21:        0.238
+  Precision At 41:        0.195
+  Precision At 61:        0.230
+  Precision At 81:        0.210
+  Precision At 101:       0.198
+  Precision At 121:       0.174
+  Precision At 141:       0.149
+  Precision At 161:       0.149
+  Precision At 181:       0.133
+  Precision At 200:       0.120
+  Precision At 250:       0.096
+  Precision At 300:       0.090
+  Precision At 350:       0.077
+  Precision At 400:       0.068
+  Precision At 450:       0.060
+  Precision At 500:       0.054
+  Precision At 550:       0.051
+  Precision At 600:       0.047
+  Precision At 650:       0.043
+  Precision At 700:       0.041
+  Precision At 750:       0.040
+  Precision At 800:       0.038
+  Precision At 850:       0.035
+  Precision At 900:       0.033
+  Precision At 950:       0.032
+
+437  -   deregul ga electr 
+
+437 Stats:
+  Search Seconds:         0.094
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       27.000
+  Max Good Points:       72.000
+  MRR:                    1.000
+  Recall:                 0.375
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.723
+  NDCG@10:                0.469
+  NDCG@15:                0.364
+  NDCG@20:                0.336
+  NDCG@35:                0.272
+  NDCG@50:                0.214
+  NDCG@70:                0.180
+  NDCG@100:               0.140
+  NDCG@200:               0.096
+  NDCG@250:               0.090
+  NDCG@400:               0.075
+  NDCG@500:               0.068
+  NDCG@600:               0.061
+  NDCG@700:               0.055
+  NDCG@1000:              0.043
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         0.750
+  Precision At 5:         0.600
+  Precision At 6:         0.500
+  Precision At 7:         0.429
+  Precision At 8:         0.375
+  Precision At 9:         0.333
+  Precision At 10:        0.300
+  Precision At 11:        0.273
+  Precision At 12:        0.250
+  Precision At 13:        0.231
+  Precision At 14:        0.214
+  Precision At 15:        0.200
+  Precision At 16:        0.188
+  Precision At 17:        0.176
+  Precision At 18:        0.167
+  Precision At 19:        0.211
+  Precision At 20:        0.200
+  Precision At 21:        0.190
+  Precision At 41:        0.146
+  Precision At 61:        0.098
+  Precision At 81:        0.086
+  Precision At 101:       0.069
+  Precision At 121:       0.066
+  Precision At 141:       0.057
+  Precision At 161:       0.050
+  Precision At 181:       0.050
+  Precision At 200:       0.050
+  Precision At 250:       0.052
+  Precision At 300:       0.050
+  Precision At 350:       0.043
+  Precision At 400:       0.048
+  Precision At 450:       0.047
+  Precision At 500:       0.044
+  Precision At 550:       0.044
+  Precision At 600:       0.040
+  Precision At 650:       0.037
+  Precision At 700:       0.036
+  Precision At 750:       0.033
+  Precision At 800:       0.034
+  Precision At 850:       0.032
+  Precision At 900:       0.030
+  Precision At 950:       0.028
+
+438  -   tourism increas 
+
+438 Stats:
+  Search Seconds:         0.166
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:      133.000
+  Max Good Points:      173.000
+  MRR:                    0.500
+  Recall:                 0.769
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 0.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.214
+  NDCG@10:                0.205
+  NDCG@15:                0.247
+  NDCG@20:                0.373
+  NDCG@35:                0.384
+  NDCG@50:                0.373
+  NDCG@70:                0.359
+  NDCG@100:               0.338
+  NDCG@200:               0.306
+  NDCG@250:               0.277
+  NDCG@400:               0.246
+  NDCG@500:               0.226
+  NDCG@600:               0.210
+  NDCG@700:               0.191
+  NDCG@1000:              0.154
+  Precision At 1:         0.000
+  Precision At 2:         0.500
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.200
+  Precision At 6:         0.167
+  Precision At 7:         0.143
+  Precision At 8:         0.125
+  Precision At 9:         0.222
+  Precision At 10:        0.200
+  Precision At 11:        0.182
+  Precision At 12:        0.167
+  Precision At 13:        0.231
+  Precision At 14:        0.286
+  Precision At 15:        0.267
+  Precision At 16:        0.312
+  Precision At 17:        0.353
+  Precision At 18:        0.389
+  Precision At 19:        0.421
+  Precision At 20:        0.450
+  Precision At 21:        0.429
+  Precision At 41:        0.415
+  Precision At 61:        0.393
+  Precision At 81:        0.358
+  Precision At 101:       0.337
+  Precision At 121:       0.298
+  Precision At 141:       0.298
+  Precision At 161:       0.292
+  Precision At 181:       0.309
+  Precision At 200:       0.300
+  Precision At 250:       0.264
+  Precision At 300:       0.260
+  Precision At 350:       0.246
+  Precision At 400:       0.230
+  Precision At 450:       0.216
+  Precision At 500:       0.208
+  Precision At 550:       0.205
+  Precision At 600:       0.192
+  Precision At 650:       0.182
+  Precision At 700:       0.170
+  Precision At 750:       0.164
+  Precision At 800:       0.155
+  Precision At 850:       0.146
+  Precision At 900:       0.141
+  Precision At 950:       0.138
+
+439  -   invent scientif discoveri 
+
+439 Stats:
+  Search Seconds:         0.038
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       55.000
+  Max Good Points:      219.000
+  MRR:                    0.000
+  Recall:                 0.251
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 0.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.000
+  NDCG@10:                0.133
+  NDCG@15:                0.146
+  NDCG@20:                0.156
+  NDCG@35:                0.108
+  NDCG@50:                0.113
+  NDCG@70:                0.101
+  NDCG@100:               0.085
+  NDCG@200:               0.059
+  NDCG@250:               0.062
+  NDCG@400:               0.065
+  NDCG@500:               0.065
+  NDCG@600:               0.067
+  NDCG@700:               0.068
+  NDCG@1000:              0.058
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.125
+  Precision At 9:         0.111
+  Precision At 10:        0.200
+  Precision At 11:        0.182
+  Precision At 12:        0.167
+  Precision At 13:        0.154
+  Precision At 14:        0.143
+  Precision At 15:        0.200
+  Precision At 16:        0.250
+  Precision At 17:        0.235
+  Precision At 18:        0.222
+  Precision At 19:        0.211
+  Precision At 20:        0.200
+  Precision At 21:        0.190
+  Precision At 41:        0.122
+  Precision At 61:        0.115
+  Precision At 81:        0.086
+  Precision At 101:       0.079
+  Precision At 121:       0.066
+  Precision At 141:       0.057
+  Precision At 161:       0.056
+  Precision At 181:       0.050
+  Precision At 200:       0.050
+  Precision At 250:       0.056
+  Precision At 300:       0.053
+  Precision At 350:       0.057
+  Precision At 400:       0.062
+  Precision At 450:       0.064
+  Precision At 500:       0.062
+  Precision At 550:       0.069
+  Precision At 600:       0.065
+  Precision At 650:       0.060
+  Precision At 700:       0.067
+  Precision At 750:       0.063
+  Precision At 800:       0.059
+  Precision At 850:       0.055
+  Precision At 900:       0.056
+  Precision At 950:       0.058
+
+440  -   child labor 
+
+440 Stats:
+  Search Seconds:         0.044
+  DocName Seconds:        0.007
+  Num Points:         1,000.000
+  Num Good Points:       29.000
+  Max Good Points:       54.000
+  MRR:                    0.000
+  Recall:                 0.537
+  1-call:                 1.000
+  2-call:                 0.000
+  3-call:                 0.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.000
+  NDCG@10:                0.064
+  NDCG@15:                0.095
+  NDCG@20:                0.114
+  NDCG@35:                0.122
+  NDCG@50:                0.125
+  NDCG@70:                0.099
+  NDCG@100:               0.092
+  NDCG@200:               0.076
+  NDCG@250:               0.080
+  NDCG@400:               0.064
+  NDCG@500:               0.061
+  NDCG@600:               0.053
+  NDCG@700:               0.047
+  NDCG@1000:              0.036
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.000
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.167
+  Precision At 13:        0.154
+  Precision At 14:        0.143
+  Precision At 15:        0.133
+  Precision At 16:        0.125
+  Precision At 17:        0.176
+  Precision At 18:        0.167
+  Precision At 19:        0.158
+  Precision At 20:        0.150
+  Precision At 21:        0.190
+  Precision At 41:        0.146
+  Precision At 61:        0.115
+  Precision At 81:        0.099
+  Precision At 101:       0.089
+  Precision At 121:       0.091
+  Precision At 141:       0.092
+  Precision At 161:       0.081
+  Precision At 181:       0.077
+  Precision At 200:       0.070
+  Precision At 250:       0.076
+  Precision At 300:       0.067
+  Precision At 350:       0.063
+  Precision At 400:       0.058
+  Precision At 450:       0.060
+  Precision At 500:       0.056
+  Precision At 550:       0.051
+  Precision At 600:       0.047
+  Precision At 650:       0.043
+  Precision At 700:       0.040
+  Precision At 750:       0.037
+  Precision At 800:       0.035
+  Precision At 850:       0.033
+  Precision At 900:       0.032
+  Precision At 950:       0.031
+
+441  -   lyme diseas 
+
+441 Stats:
+  Search Seconds:         0.010
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       17.000
+  Max Good Points:       17.000
+  MRR:                    1.000
+  Recall:                 1.000
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 1.000
+  7-call:                 1.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.869
+  NDCG@10:                0.772
+  NDCG@15:                0.685
+  NDCG@20:                0.638
+  NDCG@35:                0.505
+  NDCG@50:                0.440
+  NDCG@70:                0.349
+  NDCG@100:               0.271
+  NDCG@200:               0.163
+  NDCG@250:               0.138
+  NDCG@400:               0.096
+  NDCG@500:               0.080
+  NDCG@600:               0.070
+  NDCG@700:               0.062
+  NDCG@1000:              0.046
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         1.000
+  Precision At 5:         0.800
+  Precision At 6:         0.833
+  Precision At 7:         0.714
+  Precision At 8:         0.625
+  Precision At 9:         0.667
+  Precision At 10:        0.700
+  Precision At 11:        0.636
+  Precision At 12:        0.583
+  Precision At 13:        0.538
+  Precision At 14:        0.571
+  Precision At 15:        0.600
+  Precision At 16:        0.625
+  Precision At 17:        0.588
+  Precision At 18:        0.556
+  Precision At 19:        0.579
+  Precision At 20:        0.550
+  Precision At 21:        0.524
+  Precision At 41:        0.366
+  Precision At 61:        0.279
+  Precision At 81:        0.210
+  Precision At 101:       0.168
+  Precision At 121:       0.140
+  Precision At 141:       0.121
+  Precision At 161:       0.106
+  Precision At 181:       0.094
+  Precision At 200:       0.085
+  Precision At 250:       0.068
+  Precision At 300:       0.057
+  Precision At 350:       0.049
+  Precision At 400:       0.042
+  Precision At 450:       0.038
+  Precision At 500:       0.034
+  Precision At 550:       0.031
+  Precision At 600:       0.028
+  Precision At 650:       0.026
+  Precision At 700:       0.024
+  Precision At 750:       0.023
+  Precision At 800:       0.021
+  Precision At 850:       0.020
+  Precision At 900:       0.019
+  Precision At 950:       0.018
+
+442  -   heroic act 
+
+442 Stats:
+  Search Seconds:         0.105
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       29.000
+  Max Good Points:       94.000
+  MRR:                    0.000
+  Recall:                 0.309
+  1-call:                 1.000
+  2-call:                 0.000
+  3-call:                 0.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.000
+  NDCG@10:                0.064
+  NDCG@15:                0.049
+  NDCG@20:                0.041
+  NDCG@35:                0.050
+  NDCG@50:                0.069
+  NDCG@70:                0.055
+  NDCG@100:               0.050
+  NDCG@200:               0.042
+  NDCG@250:               0.041
+  NDCG@400:               0.039
+  NDCG@500:               0.037
+  NDCG@600:               0.036
+  NDCG@700:               0.033
+  NDCG@1000:              0.031
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.000
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.083
+  Precision At 13:        0.077
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.062
+  Precision At 17:        0.059
+  Precision At 18:        0.056
+  Precision At 19:        0.053
+  Precision At 20:        0.050
+  Precision At 21:        0.048
+  Precision At 41:        0.098
+  Precision At 61:        0.066
+  Precision At 81:        0.049
+  Precision At 101:       0.050
+  Precision At 121:       0.041
+  Precision At 141:       0.035
+  Precision At 161:       0.037
+  Precision At 181:       0.044
+  Precision At 200:       0.040
+  Precision At 250:       0.040
+  Precision At 300:       0.037
+  Precision At 350:       0.040
+  Precision At 400:       0.038
+  Precision At 450:       0.036
+  Precision At 500:       0.036
+  Precision At 550:       0.036
+  Precision At 600:       0.035
+  Precision At 650:       0.032
+  Precision At 700:       0.031
+  Precision At 750:       0.031
+  Precision At 800:       0.030
+  Precision At 850:       0.031
+  Precision At 900:       0.031
+  Precision At 950:       0.031
+
+443  -   invest africa 
+
+443 Stats:
+  Search Seconds:         0.128
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       64.000
+  Max Good Points:      102.000
+  MRR:                    0.333
+  Recall:                 0.627
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.447
+  NDCG@10:                0.420
+  NDCG@15:                0.414
+  NDCG@20:                0.379
+  NDCG@35:                0.304
+  NDCG@50:                0.311
+  NDCG@70:                0.277
+  NDCG@100:               0.245
+  NDCG@200:               0.192
+  NDCG@250:               0.178
+  NDCG@400:               0.138
+  NDCG@500:               0.127
+  NDCG@600:               0.117
+  NDCG@700:               0.107
+  NDCG@1000:              0.083
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.333
+  Precision At 4:         0.500
+  Precision At 5:         0.600
+  Precision At 6:         0.500
+  Precision At 7:         0.429
+  Precision At 8:         0.375
+  Precision At 9:         0.444
+  Precision At 10:        0.500
+  Precision At 11:        0.455
+  Precision At 12:        0.417
+  Precision At 13:        0.462
+  Precision At 14:        0.500
+  Precision At 15:        0.467
+  Precision At 16:        0.500
+  Precision At 17:        0.471
+  Precision At 18:        0.444
+  Precision At 19:        0.421
+  Precision At 20:        0.400
+  Precision At 21:        0.381
+  Precision At 41:        0.317
+  Precision At 61:        0.262
+  Precision At 81:        0.247
+  Precision At 101:       0.218
+  Precision At 121:       0.215
+  Precision At 141:       0.206
+  Precision At 161:       0.199
+  Precision At 181:       0.177
+  Precision At 200:       0.165
+  Precision At 250:       0.152
+  Precision At 300:       0.137
+  Precision At 350:       0.120
+  Precision At 400:       0.112
+  Precision At 450:       0.109
+  Precision At 500:       0.104
+  Precision At 550:       0.096
+  Precision At 600:       0.095
+  Precision At 650:       0.089
+  Precision At 700:       0.086
+  Precision At 750:       0.081
+  Precision At 800:       0.078
+  Precision At 850:       0.074
+  Precision At 900:       0.070
+  Precision At 950:       0.067
+
+444  -   supercrit fluid 
+
+444 Stats:
+  Search Seconds:         0.003
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       16.000
+  Max Good Points:       17.000
+  MRR:                    1.000
+  Recall:                 0.941
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 1.000
+  7-call:                 1.000
+  8-call:                 1.000
+  9-call:                 1.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.830
+  NDCG@10:                0.890
+  NDCG@15:                0.690
+  NDCG@20:                0.574
+  NDCG@35:                0.418
+  NDCG@50:                0.343
+  NDCG@70:                0.272
+  NDCG@100:               0.211
+  NDCG@200:               0.127
+  NDCG@250:               0.123
+  NDCG@400:               0.086
+  NDCG@500:               0.072
+  NDCG@600:               0.062
+  NDCG@700:               0.055
+  NDCG@1000:              0.041
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         0.667
+  Precision At 4:         0.750
+  Precision At 5:         0.800
+  Precision At 6:         0.833
+  Precision At 7:         0.857
+  Precision At 8:         0.875
+  Precision At 9:         0.889
+  Precision At 10:        0.900
+  Precision At 11:        0.818
+  Precision At 12:        0.750
+  Precision At 13:        0.692
+  Precision At 14:        0.643
+  Precision At 15:        0.600
+  Precision At 16:        0.562
+  Precision At 17:        0.529
+  Precision At 18:        0.500
+  Precision At 19:        0.474
+  Precision At 20:        0.450
+  Precision At 21:        0.429
+  Precision At 41:        0.244
+  Precision At 61:        0.180
+  Precision At 81:        0.136
+  Precision At 101:       0.109
+  Precision At 121:       0.091
+  Precision At 141:       0.078
+  Precision At 161:       0.068
+  Precision At 181:       0.061
+  Precision At 200:       0.055
+  Precision At 250:       0.064
+  Precision At 300:       0.053
+  Precision At 350:       0.046
+  Precision At 400:       0.040
+  Precision At 450:       0.036
+  Precision At 500:       0.032
+  Precision At 550:       0.029
+  Precision At 600:       0.027
+  Precision At 650:       0.025
+  Precision At 700:       0.023
+  Precision At 750:       0.021
+  Precision At 800:       0.020
+  Precision At 850:       0.019
+  Precision At 900:       0.018
+  Precision At 950:       0.017
+
+445  -   women clergi 
+
+445 Stats:
+  Search Seconds:         0.053
+  DocName Seconds:        0.007
+  Num Points:         1,000.000
+  Num Good Points:       21.000
+  Max Good Points:       62.000
+  MRR:                    1.000
+  Recall:                 0.339
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 1.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.723
+  NDCG@10:                0.687
+  NDCG@15:                0.533
+  NDCG@20:                0.443
+  NDCG@35:                0.389
+  NDCG@50:                0.320
+  NDCG@70:                0.264
+  NDCG@100:               0.213
+  NDCG@200:               0.156
+  NDCG@250:               0.132
+  NDCG@400:               0.092
+  NDCG@500:               0.079
+  NDCG@600:               0.068
+  NDCG@700:               0.060
+  NDCG@1000:              0.045
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         0.750
+  Precision At 5:         0.600
+  Precision At 6:         0.667
+  Precision At 7:         0.714
+  Precision At 8:         0.625
+  Precision At 9:         0.667
+  Precision At 10:        0.600
+  Precision At 11:        0.545
+  Precision At 12:        0.500
+  Precision At 13:        0.462
+  Precision At 14:        0.429
+  Precision At 15:        0.400
+  Precision At 16:        0.375
+  Precision At 17:        0.353
+  Precision At 18:        0.333
+  Precision At 19:        0.316
+  Precision At 20:        0.300
+  Precision At 21:        0.286
+  Precision At 41:        0.244
+  Precision At 61:        0.197
+  Precision At 81:        0.160
+  Precision At 101:       0.129
+  Precision At 121:       0.132
+  Precision At 141:       0.113
+  Precision At 161:       0.112
+  Precision At 181:       0.110
+  Precision At 200:       0.100
+  Precision At 250:       0.080
+  Precision At 300:       0.067
+  Precision At 350:       0.057
+  Precision At 400:       0.050
+  Precision At 450:       0.047
+  Precision At 500:       0.042
+  Precision At 550:       0.038
+  Precision At 600:       0.035
+  Precision At 650:       0.032
+  Precision At 700:       0.030
+  Precision At 750:       0.028
+  Precision At 800:       0.026
+  Precision At 850:       0.025
+  Precision At 900:       0.023
+  Precision At 950:       0.022
+
+446  -   tourist violenc 
+
+446 Stats:
+  Search Seconds:         0.028
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       78.000
+  Max Good Points:      162.000
+  MRR:                    1.000
+  Recall:                 0.481
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.854
+  NDCG@10:                0.624
+  NDCG@15:                0.576
+  NDCG@20:                0.582
+  NDCG@35:                0.485
+  NDCG@50:                0.453
+  NDCG@70:                0.432
+  NDCG@100:               0.366
+  NDCG@200:               0.277
+  NDCG@250:               0.240
+  NDCG@400:               0.185
+  NDCG@500:               0.161
+  NDCG@600:               0.152
+  NDCG@700:               0.135
+  NDCG@1000:              0.109
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         0.750
+  Precision At 5:         0.800
+  Precision At 6:         0.667
+  Precision At 7:         0.571
+  Precision At 8:         0.625
+  Precision At 9:         0.556
+  Precision At 10:        0.500
+  Precision At 11:        0.545
+  Precision At 12:        0.500
+  Precision At 13:        0.538
+  Precision At 14:        0.500
+  Precision At 15:        0.467
+  Precision At 16:        0.500
+  Precision At 17:        0.529
+  Precision At 18:        0.556
+  Precision At 19:        0.526
+  Precision At 20:        0.500
+  Precision At 21:        0.476
+  Precision At 41:        0.390
+  Precision At 61:        0.377
+  Precision At 81:        0.346
+  Precision At 101:       0.297
+  Precision At 121:       0.306
+  Precision At 141:       0.284
+  Precision At 161:       0.248
+  Precision At 181:       0.227
+  Precision At 200:       0.220
+  Precision At 250:       0.184
+  Precision At 300:       0.163
+  Precision At 350:       0.151
+  Precision At 400:       0.138
+  Precision At 450:       0.127
+  Precision At 500:       0.116
+  Precision At 550:       0.122
+  Precision At 600:       0.113
+  Precision At 650:       0.105
+  Precision At 700:       0.097
+  Precision At 750:       0.095
+  Precision At 800:       0.094
+  Precision At 850:       0.089
+  Precision At 900:       0.086
+  Precision At 950:       0.082
+
+447  -   stirl engin 
+
+447 Stats:
+  Search Seconds:         0.048
+  DocName Seconds:        0.009
+  Num Points:         1,000.000
+  Num Good Points:       16.000
+  Max Good Points:       16.000
+  MRR:                    0.333
+  Recall:                 1.000
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.316
+  NDCG@10:                0.349
+  NDCG@15:                0.319
+  NDCG@20:                0.265
+  NDCG@35:                0.245
+  NDCG@50:                0.208
+  NDCG@70:                0.228
+  NDCG@100:               0.185
+  NDCG@200:               0.111
+  NDCG@250:               0.094
+  NDCG@400:               0.065
+  NDCG@500:               0.055
+  NDCG@600:               0.047
+  NDCG@700:               0.042
+  NDCG@1000:              0.031
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.333
+  Precision At 4:         0.500
+  Precision At 5:         0.400
+  Precision At 6:         0.500
+  Precision At 7:         0.429
+  Precision At 8:         0.375
+  Precision At 9:         0.444
+  Precision At 10:        0.400
+  Precision At 11:        0.455
+  Precision At 12:        0.417
+  Precision At 13:        0.385
+  Precision At 14:        0.357
+  Precision At 15:        0.333
+  Precision At 16:        0.312
+  Precision At 17:        0.294
+  Precision At 18:        0.278
+  Precision At 19:        0.263
+  Precision At 20:        0.250
+  Precision At 21:        0.238
+  Precision At 41:        0.220
+  Precision At 61:        0.246
+  Precision At 81:        0.185
+  Precision At 101:       0.158
+  Precision At 121:       0.132
+  Precision At 141:       0.113
+  Precision At 161:       0.099
+  Precision At 181:       0.088
+  Precision At 200:       0.080
+  Precision At 250:       0.064
+  Precision At 300:       0.053
+  Precision At 350:       0.046
+  Precision At 400:       0.040
+  Precision At 450:       0.036
+  Precision At 500:       0.032
+  Precision At 550:       0.029
+  Precision At 600:       0.027
+  Precision At 650:       0.025
+  Precision At 700:       0.023
+  Precision At 750:       0.021
+  Precision At 800:       0.020
+  Precision At 850:       0.019
+  Precision At 900:       0.018
+  Precision At 950:       0.017
+
+448  -   ship loss 
+
+448 Stats:
+  Search Seconds:         0.107
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       11.000
+  Max Good Points:       46.000
+  MRR:                    0.000
+  Recall:                 0.239
+  1-call:                 0.000
+  2-call:                 0.000
+  3-call:                 0.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.000
+  NDCG@10:                0.000
+  NDCG@15:                0.044
+  NDCG@20:                0.069
+  NDCG@35:                0.048
+  NDCG@50:                0.037
+  NDCG@70:                0.030
+  NDCG@100:               0.023
+  NDCG@200:               0.026
+  NDCG@250:               0.025
+  NDCG@400:               0.021
+  NDCG@500:               0.018
+  NDCG@600:               0.017
+  NDCG@700:               0.015
+  NDCG@1000:              0.013
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.000
+  Precision At 10:        0.000
+  Precision At 11:        0.000
+  Precision At 12:        0.000
+  Precision At 13:        0.000
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.062
+  Precision At 17:        0.059
+  Precision At 18:        0.056
+  Precision At 19:        0.053
+  Precision At 20:        0.100
+  Precision At 21:        0.095
+  Precision At 41:        0.049
+  Precision At 61:        0.033
+  Precision At 81:        0.025
+  Precision At 101:       0.020
+  Precision At 121:       0.017
+  Precision At 141:       0.028
+  Precision At 161:       0.025
+  Precision At 181:       0.022
+  Precision At 200:       0.025
+  Precision At 250:       0.024
+  Precision At 300:       0.023
+  Precision At 350:       0.020
+  Precision At 400:       0.020
+  Precision At 450:       0.018
+  Precision At 500:       0.016
+  Precision At 550:       0.016
+  Precision At 600:       0.015
+  Precision At 650:       0.014
+  Precision At 700:       0.013
+  Precision At 750:       0.013
+  Precision At 800:       0.012
+  Precision At 850:       0.012
+  Precision At 900:       0.011
+  Precision At 950:       0.011
+
+449  -   antibiot ineffect 
+
+449 Stats:
+  Search Seconds:         0.003
+  DocName Seconds:        0.008
+  Num Points:         1,000.000
+  Num Good Points:       32.000
+  Max Good Points:       67.000
+  MRR:                    0.333
+  Recall:                 0.478
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 0.000
+  5-call:                 0.000
+  6-call:                 0.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 0.000
+  NDCG@5:                 0.316
+  NDCG@10:                0.283
+  NDCG@15:                0.313
+  NDCG@20:                0.294
+  NDCG@35:                0.307
+  NDCG@50:                0.270
+  NDCG@70:                0.224
+  NDCG@100:               0.182
+  NDCG@200:               0.125
+  NDCG@250:               0.109
+  NDCG@400:               0.088
+  NDCG@500:               0.079
+  NDCG@600:               0.072
+  NDCG@700:               0.064
+  NDCG@1000:              0.048
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.333
+  Precision At 4:         0.500
+  Precision At 5:         0.400
+  Precision At 6:         0.500
+  Precision At 7:         0.429
+  Precision At 8:         0.375
+  Precision At 9:         0.333
+  Precision At 10:        0.300
+  Precision At 11:        0.364
+  Precision At 12:        0.417
+  Precision At 13:        0.385
+  Precision At 14:        0.357
+  Precision At 15:        0.333
+  Precision At 16:        0.312
+  Precision At 17:        0.294
+  Precision At 18:        0.333
+  Precision At 19:        0.316
+  Precision At 20:        0.300
+  Precision At 21:        0.286
+  Precision At 41:        0.268
+  Precision At 61:        0.230
+  Precision At 81:        0.185
+  Precision At 101:       0.149
+  Precision At 121:       0.132
+  Precision At 141:       0.121
+  Precision At 161:       0.112
+  Precision At 181:       0.105
+  Precision At 200:       0.095
+  Precision At 250:       0.080
+  Precision At 300:       0.077
+  Precision At 350:       0.071
+  Precision At 400:       0.065
+  Precision At 450:       0.062
+  Precision At 500:       0.058
+  Precision At 550:       0.055
+  Precision At 600:       0.053
+  Precision At 650:       0.049
+  Precision At 700:       0.046
+  Precision At 750:       0.043
+  Precision At 800:       0.040
+  Precision At 850:       0.038
+  Precision At 900:       0.036
+  Precision At 950:       0.034
+
+450  -   king hussein peac 
+
+450 Stats:
+  Search Seconds:         0.096
+  DocName Seconds:        0.007
+  Num Points:         1,000.000
+  Num Good Points:      209.000
+  Max Good Points:      293.000
+  MRR:                    1.000
+  Recall:                 0.713
+  1-call:                 1.000
+  2-call:                 1.000
+  3-call:                 1.000
+  4-call:                 1.000
+  5-call:                 1.000
+  6-call:                 1.000
+  7-call:                 0.000
+  8-call:                 0.000
+  9-call:                 0.000
+  10-call:                0.000
+  NDCG@1:                 1.000
+  NDCG@5:                 0.470
+  NDCG@10:                0.578
+  NDCG@15:                0.580
+  NDCG@20:                0.551
+  NDCG@35:                0.587
+  NDCG@50:                0.534
+  NDCG@70:                0.516
+  NDCG@100:               0.468
+  NDCG@200:               0.357
+  NDCG@250:               0.330
+  NDCG@400:               0.306
+  NDCG@500:               0.300
+  NDCG@600:               0.285
+  NDCG@700:               0.276
+  NDCG@1000:              0.234
+  Precision At 1:         1.000
+  Precision At 2:         0.500
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.400
+  Precision At 6:         0.333
+  Precision At 7:         0.429
+  Precision At 8:         0.500
+  Precision At 9:         0.556
+  Precision At 10:        0.600
+  Precision At 11:        0.545
+  Precision At 12:        0.583
+  Precision At 13:        0.538
+  Precision At 14:        0.571
+  Precision At 15:        0.600
+  Precision At 16:        0.562
+  Precision At 17:        0.588
+  Precision At 18:        0.611
+  Precision At 19:        0.579
+  Precision At 20:        0.550
+  Precision At 21:        0.571
+  Precision At 41:        0.585
+  Precision At 61:        0.508
+  Precision At 81:        0.457
+  Precision At 101:       0.436
+  Precision At 121:       0.380
+  Precision At 141:       0.369
+  Precision At 161:       0.342
+  Precision At 181:       0.326
+  Precision At 200:       0.315
+  Precision At 250:       0.288
+  Precision At 300:       0.280
+  Precision At 350:       0.271
+  Precision At 400:       0.275
+  Precision At 450:       0.276
+  Precision At 500:       0.274
+  Precision At 550:       0.262
+  Precision At 600:       0.260
+  Precision At 650:       0.255
+  Precision At 700:       0.251
+  Precision At 750:       0.245
+  Precision At 800:       0.235
+  Precision At 850:       0.228
+  Precision At 900:       0.224
+  Precision At 950:       0.216
+
+
+
+SUMMARY
+  Search Seconds:         0.084
+  DocName Seconds:        0.009
+  Num Points:           981.700
+  Num Good Points:       54.380
+  Max Good Points:       94.560
+  MRR:                    0.630
+  Recall:                 0.641
+  1-call:                 0.920
+  2-call:                 0.840
+  3-call:                 0.720
+  4-call:                 0.540
+  5-call:                 0.440
+  6-call:                 0.280
+  7-call:                 0.220
+  8-call:                 0.200
+  9-call:                 0.120
+  10-call:                0.040
+  NDCG@1:                 0.540
+  NDCG@5:                 0.490
+  NDCG@10:                0.454
+  NDCG@15:                0.421
+  NDCG@20:                0.395
+  NDCG@35:                0.346
+  NDCG@50:                0.311
+  NDCG@70:                0.280
+  NDCG@100:               0.237
+  NDCG@200:               0.173
+  NDCG@250:               0.156
+  NDCG@400:               0.126
+  NDCG@500:               0.112
+  NDCG@600:               0.102
+  NDCG@700:               0.093
+  NDCG@1000:              0.074
+  Precision At 1:         0.540
+  Precision At 2:         0.490
+  Precision At 3:         0.520
+  Precision At 4:         0.500
+  Precision At 5:         0.476
+  Precision At 6:         0.453
+  Precision At 7:         0.449
+  Precision At 8:         0.438
+  Precision At 9:         0.438
+  Precision At 10:        0.432
+  Precision At 11:        0.427
+  Precision At 12:        0.420
+  Precision At 13:        0.408
+  Precision At 14:        0.399
+  Precision At 15:        0.391
+  Precision At 16:        0.382
+  Precision At 17:        0.375
+  Precision At 18:        0.371
+  Precision At 19:        0.366
+  Precision At 20:        0.359
+  Precision At 21:        0.353
+  Precision At 41:        0.290
+  Precision At 61:        0.251
+  Precision At 81:        0.223
+  Precision At 101:       0.200
+  Precision At 121:       0.184
+  Precision At 141:       0.169
+  Precision At 161:       0.157
+  Precision At 181:       0.146
+  Precision At 200:       0.138
+  Precision At 250:       0.124
+  Precision At 300:       0.113
+  Precision At 350:       0.105
+  Precision At 400:       0.098
+  Precision At 450:       0.093
+  Precision At 500:       0.087
+  Precision At 550:       0.083
+  Precision At 600:       0.079
+  Precision At 650:       0.074
+  Precision At 700:       0.071
+  Precision At 750:       0.067
+  Precision At 800:       0.064
+  Precision At 850:       0.061
+  Precision At 900:       0.059
+  Precision At 950:       0.057
+
+

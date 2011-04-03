@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ir/!svn/ver/259/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/filtering/collabfiltering/cf
+END
+ItemRatingPair.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/filtering/collabfiltering/cf/ItemRatingPair.java
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ir/!svn/ver/259/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/filtering/collabfiltering/cf/Test.java
+END
+UserRatingPair.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/filtering/collabfiltering/cf/UserRatingPair.java
+END
+RatingPair.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/filtering/collabfiltering/cf/RatingPair.java
+END
+Recommender.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/filtering/collabfiltering/cf/Recommender.java
+END
+Profiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/filtering/collabfiltering/cf/Profiles.java
+END
+RatingMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/filtering/collabfiltering/cf/RatingMatrix.java
+END
+AdjustedCosineSimilarity.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/ir/!svn/ver/259/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/filtering/collabfiltering/cf/AdjustedCosineSimilarity.java
+END
+MovieLensRatingMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ir/!svn/ver/259/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/filtering/collabfiltering/cf/MovieLensRatingMatrix.java
+END
+ItemBasedRecommender.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/filtering/collabfiltering/cf/ItemBasedRecommender.java
+END
+UserBasedRecommender.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/filtering/collabfiltering/cf/UserBasedRecommender.java
+END

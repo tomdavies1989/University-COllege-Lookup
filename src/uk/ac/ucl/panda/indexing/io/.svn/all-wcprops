@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io
+END
+TermVectorMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/TermVectorMapper.java
+END
+BitVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/BitVector.java
+END
+TrecTopicsReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/TrecTopicsReader.java
+END
+CompoundFileReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/CompoundFileReader.java
+END
+SegmentTermEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/SegmentTermEnum.java
+END
+DirectoryIndexReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/DirectoryIndexReader.java
+END
+CompoundFileWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/CompoundFileWriter.java
+END
+SegmentMergeQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/SegmentMergeQueue.java
+END
+BasicDocMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/BasicDocMaker.java
+END
+MultiLevelSkipListReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/MultiLevelSkipListReader.java
+END
+TermInfosReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/TermInfosReader.java
+END
+FieldsReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/FieldsReader.java
+END
+BufferedIndexInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/BufferedIndexInput.java
+END
+DefaultSkipListReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/DefaultSkipListReader.java
+END
+IndexReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/IndexReader.java
+END
+DocumentsWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/DocumentsWriter.java
+END
+TermVectorsReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/TermVectorsReader.java
+END
+FilterIndexReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/FilterIndexReader.java
+END
+MultiSegmentReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/MultiSegmentReader.java
+END
+MultiLevelSkipListWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/MultiLevelSkipListWriter.java
+END
+SegmentTermPositionVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/SegmentTermPositionVector.java
+END
+SegmentTermPositions.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/SegmentTermPositions.java
+END
+FieldsWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/FieldsWriter.java
+END
+SegmentTermDocs.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/SegmentTermDocs.java
+END
+TermInfosWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/TermInfosWriter.java
+END
+DefaultSkipListWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/DefaultSkipListWriter.java
+END
+IndexWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/IndexWriter.java
+END
+SegmentMerger.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/SegmentMerger.java
+END
+TermVectorsWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/TermVectorsWriter.java
+END
+IndexFileDeleter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/IndexFileDeleter.java
+END
+SegmentTermVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/SegmentTermVector.java
+END
+ParallelReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/ParallelReader.java
+END
+TrecDoc.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/TrecDoc.java
+END
+SegmentReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/SegmentReader.java
+END
+DocMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/DocMaker.java
+END
+BufferedIndexOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/BufferedIndexOutput.java
+END
+SegmentMergeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/io/SegmentMergeInfo.java
+END

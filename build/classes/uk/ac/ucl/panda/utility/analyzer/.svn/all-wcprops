@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/analyzer
+END
+Analyzer.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/analyzer/Analyzer.java
+END
+PorterStemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/analyzer/PorterStemmer.java
+END
+PorterStemAnalyzer.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/analyzer/PorterStemAnalyzer.java
+END
+PorterStemFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/analyzer/PorterStemFilter.java
+END

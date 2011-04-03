@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/retrieval/models
+END
+TestModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/retrieval/models/TestModel.java
+END
+Language_lambda.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/retrieval/models/Language_lambda.java
+END
+Models.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/retrieval/models/Models.java
+END
+BM25.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/retrieval/models/BM25.java
+END
+Language_u.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/retrieval/models/Language_u.java
+END
+RawMaterial.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/retrieval/models/RawMaterial.java
+END
+Language_AdV.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/retrieval/models/Language_AdV.java
+END
+ModelParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/retrieval/models/ModelParser.java
+END

@@ -1,0 +1,10 @@
+1. config etc/
+2. ./bin/Panda.sh  -i    $index
+3  ./bin/Panda.sh  -e    $search and evaluation
+
+
+a. models
+   Panda-0.0/src/uk/ac/ucl/panda/retrieval/Searcher.java
+   change model by RawMaterial(index, CTF, 1)
+b. parameters
+   Panda-0.0/src/uk/ac/ucl/panda/retrieval/models   

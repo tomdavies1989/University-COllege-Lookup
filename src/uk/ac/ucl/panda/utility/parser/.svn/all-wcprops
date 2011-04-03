@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/parser
+END
+TokenMgrError.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/parser/TokenMgrError.java
+END
+FastCharStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/parser/FastCharStream.java
+END
+SimpleQQParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/parser/SimpleQQParser.java
+END
+Tokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/parser/Tokenizer.java
+END
+QueryParserTokenManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/parser/QueryParserTokenManager.java
+END
+LowerCaseTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/parser/LowerCaseTokenizer.java
+END
+QueryParserConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/parser/QueryParserConstants.java
+END
+Token.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/parser/Token.java
+END
+HTMLParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/parser/HTMLParser.java
+END
+QueryParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/parser/QueryParser.java
+END
+TokenFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/parser/TokenFilter.java
+END
+Payload.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/parser/Payload.java
+END
+LetterTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/parser/LetterTokenizer.java
+END
+QualityQueryParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/parser/QualityQueryParser.java
+END
+StopFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/parser/StopFilter.java
+END
+TokenStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/parser/TokenStream.java
+END

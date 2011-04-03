@@ -1,0 +1,196 @@
+package uk.ac.ucl.panda.retrieval;
+
+/**
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.BitSet;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Vector;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import uk.ac.ucl.panda.indexing.ExtraInformation;
+import uk.ac.ucl.panda.indexing.io.IndexReader;
+import uk.ac.ucl.panda.retrieval.models.RawMaterial;
+import uk.ac.ucl.panda.retrieval.query.Query;
+import uk.ac.ucl.panda.utility.io.CorruptIndexException;
+import uk.ac.ucl.panda.utility.structure.Document;
+import uk.ac.ucl.panda.utility.structure.FieldSelector;
+import uk.ac.ucl.panda.utility.structure.Term;
+
+
+/** An abstract base class for search implementations.
+ * Implements the main search methods.
+ * 
+ * <p>Note that you can only access Hits from a Searcher as long as it is
+ * not yet closed, otherwise an IOException will be thrown. 
+ */
+public class Searcher implements Searchable {
+
+    IndexReader reader;
+  
+  private String index;
+  RawMaterial raws;
+//  HashMap CTF;
+    private Term term;
+  public  Searcher(String index) throws FileNotFoundException, IOException, ClassNotFoundException {
+        this.index=index;
+        this.reader=IndexReader.open(index);
+     // this.CTF =ExtraInformation.ReadCTF(index);
+        this.raws=new RawMaterial(index, 1); //0 is BM25  ; 1 is language_u;  2 is language risk; 3 is language_lambda
+
+    }
+
+
+
+
+
+  /** Expert: Low-level search implementation.  Finds the top <code>n</code>
+   * hits for <code>query</code>, applying <code>filter</code> if non-null.
+   *
+   * <p>Called by {@link Hits}.
+   *
+   * <p>Applications should usually call {@link Searcher#search(Query)} or
+   * {@link Searcher#search(Query,Filter)} instead.
+   * @throws BooleanQuery.TooManyClauses
+   */
+  public TopDocs search(Query query, Filter filter, int nDocs)
+    throws IOException {
+    if(query == null) return null;
+
+    if (nDocs <= 0)  // null might be returned from hq.top() below.
+      throw new IllegalArgumentException("nDocs must be > 0");
+
+    TopDocCollector collector = new TopDocCollector(nDocs);
+    search(query, filter, collector);
+    return collector.topDocs();
+
+  }
+
+
+    /** Expert: Low-level search implementation.  Finds the top <code>n</code>
+   * hits for <code>query</code>, applying <code>filter</code> if non-null.
+   *
+   * <p>Called by {@link Hits}.
+   *
+   * <p>Applications should usually call {@link Searcher#search(Query)} or
+   * {@link Searcher#search(Query,Filter)} instead.
+   * @throws BooleanQuery.TooManyClauses
+   */
+  public TopDocs search(Query query, Filter filter, int nDocs, double a)
+    throws IOException {
+
+
+    if (nDocs <= 0)  // null might be returned from hq.top() below.
+      throw new IllegalArgumentException("nDocs must be > 0");
+
+    TopDocCollector collector = new TopDocCollector(nDocs);
+    
+    // HitCollector collector = results;
+     if (filter != null) {
+    }
+
+    HashMap Docset = new HashMap();
+    HashMap queryscore = new HashMap();
+    for(int j =0 ; j< query.getTerm().toArray().length ; j++){
+        term = (Term)query.getTerm().get(j);
+        raws.getDocSet(term, Docset);
+    }
+    for(int j =0 ; j< query.getTerm().toArray().length ; j++){
+        term = (Term)query.getTerm().get(j);
+        raws.process(term, j,Docset.values(), queryscore,a);
+
+    }
+     
+
+   // double checkscore = 0;
+
+       Collection  Docs=Docset.values();
+  for   (Iterator   iterator   =  Docs.iterator();   iterator.hasNext();)
+  {
+      int DocNum = (Integer)iterator.next();
+  //    System.out.println(DocNum+"  "+ (Double)queryscore.get(DocNum));
+       collector.collect(DocNum, (Double)queryscore.get(DocNum));
+  }
+    return collector.topDocs();
+
+  }
+  
+  
+
+public void search(Query query, Filter filter, TopDocCollector results) throws IOException {
+   // HitCollector collector = results;
+     if (filter != null) {
+    }
+
+    HashMap Docset = new HashMap();
+    HashMap queryscore = new HashMap();
+    for(int j =0 ; j< query.getTerm().toArray().length ; j++){
+        term = (Term)query.getTerm().get(j);
+        raws.getDocSet(term, Docset);
+    }
+    for(int j =0 ; j< query.getTerm().toArray().length ; j++){
+        term = (Term)query.getTerm().get(j);
+        raws.process(term, j,Docset.values(), queryscore);
+
+    }
+     
+
+   // double checkscore = 0;
+
+       Collection  Docs=Docset.values();
+  for   (Iterator   iterator   =  Docs.iterator();   iterator.hasNext();)
+  {
+      int DocNum = (Integer)iterator.next();
+  //    System.out.println(DocNum+"  "+ (Double)queryscore.get(DocNum));
+       results.collect(DocNum, (Double)queryscore.get(DocNum));
+  }
+
+   
+
+
+}
+
+
+
+ // inherit javadoc
+  public Document doc(int i) throws CorruptIndexException, IOException {
+    return reader.document(i);
+  }
+
+
+
+
+  // inherit javadoc
+  public Document doc(int i, FieldSelector fieldSelector) throws CorruptIndexException, IOException {
+	    return reader.document(i, fieldSelector);
+  }
+
+    public TopFieldDocs search(Query query, Filter filter, int n, Sort sort) throws IOException {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+
+
+
+
+
+ 
+}

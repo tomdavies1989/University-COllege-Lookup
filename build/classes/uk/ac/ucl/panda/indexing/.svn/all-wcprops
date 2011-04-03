@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing
+END
+SetBasedFieldSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/SetBasedFieldSelector.java
+END
+LogByteSizeMergePolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/LogByteSizeMergePolicy.java
+END
+ConcurrentMergeScheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/ConcurrentMergeScheduler.java
+END
+CompoundFileReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/CompoundFileReader.java
+END
+LogDocMergePolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/LogDocMergePolicy.java
+END
+NumberTools.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/NumberTools.java
+END
+IndexDeletionPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/IndexDeletionPolicy.java
+END
+IndexFileNameFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/IndexFileNameFilter.java
+END
+MergePolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/MergePolicy.java
+END
+Parameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/Parameter.java
+END
+DateField.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/DateField.java
+END
+LogMergePolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/LogMergePolicy.java
+END
+MapFieldSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/MapFieldSelector.java
+END
+TrecIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/TrecIndex.java
+END
+KeepOnlyLastCommitDeletionPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/KeepOnlyLastCommitDeletionPolicy.java
+END
+ExtraInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/ExtraInformation.java
+END
+IndexCommitPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/IndexCommitPoint.java
+END
+LoadFirstFieldSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/LoadFirstFieldSelector.java
+END
+MergeScheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/MergeScheduler.java
+END
+DateTools.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/indexing/DateTools.java
+END

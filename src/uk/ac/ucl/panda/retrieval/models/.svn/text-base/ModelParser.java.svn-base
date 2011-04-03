@@ -1,0 +1,55 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package uk.ac.ucl.panda.retrieval.models;
+
+import java.util.HashMap;
+
+/**
+ *
+ * @author xxms
+ */
+public class ModelParser {
+
+    int model;
+    Models algorithm;
+    ModelParser(int m) {
+        this.model=m;
+         if(model == 0){
+       algorithm=new BM25();
+    }
+    else if(model == 1){
+        algorithm = new Language_u();
+    }
+    else if(model == 2){
+        algorithm = new Language_AdV();
+    }
+    else if(model == 3){
+        algorithm = new Language_lambda();
+    }
+    else if(model == 5){
+        algorithm = new TestModel();
+    }
+
+    }
+
+    public double getscore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF){
+        return  algorithm.getscore(tf,df,idf,DL,avgDL, DocNum, CL, CTF);
+    }
+
+   public double defaultScore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF) {
+        return algorithm.defaultScore( tf, df, idf, DL, avgDL, DocNum, CL,CTF);
+    }
+
+    public double defaultScore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF, double a) {
+        return algorithm.defaultScore( tf, df, idf, DL, avgDL, DocNum, CL,CTF, a);
+    }
+
+    double getscore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF, double a) {    
+        return  algorithm.getscore(tf,df,idf,DL,avgDL, DocNum, CL, CTF,a);
+    }
+
+
+}

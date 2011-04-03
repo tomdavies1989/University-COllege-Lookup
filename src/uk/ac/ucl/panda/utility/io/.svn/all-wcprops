@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io
+END
+DocNameExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/DocNameExtractor.java
+END
+FileReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/FileReader.java
+END
+Config.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/Config.java
+END
+CorruptIndexException.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/CorruptIndexException.java
+END
+SingleInstanceLockFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/SingleInstanceLockFactory.java
+END
+NoMoreDataException.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/NoMoreDataException.java
+END
+LockObtainFailedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/LockObtainFailedException.java
+END
+StaleReaderException.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/StaleReaderException.java
+END
+RAMInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/RAMInputStream.java
+END
+RAMOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/RAMOutputStream.java
+END
+LockReleaseFailedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/LockReleaseFailedException.java
+END
+NoLockFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/NoLockFactory.java
+END
+LockFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/LockFactory.java
+END
+NativeFSLockFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/NativeFSLockFactory.java
+END
+ZcompressInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/ZcompressInputStream.java
+END
+SimpleFSLockFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/SimpleFSLockFactory.java
+END
+FieldReaderException.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/FieldReaderException.java
+END
+IndexInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/IndexInput.java
+END
+SubmissionReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/SubmissionReport.java
+END
+Lock.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/Lock.java
+END
+IndexOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/IndexOutput.java
+END
+Format.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/Format.java
+END
+ParseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/ParseException.java
+END
+AlreadyClosedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/io/AlreadyClosedException.java
+END

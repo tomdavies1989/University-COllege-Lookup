@@ -1,0 +1,49 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package uk.ac.ucl.panda.retrieval.models;
+
+import java.util.HashMap;
+
+/**
+ *
+ * @author xxms
+ */
+public class Language_lambda extends Models {
+    private double lambda = 0.1d;
+    private double var = 0;
+
+
+  
+    double getscore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF) {
+                
+        double P = (1-lambda)*tf/DL+lambda*CTF/CL;
+          double score = Math.log(P);
+          return score;
+    }
+
+  
+    double defaultScore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF) {
+       double P = lambda*CTF/CL;
+       double score = Math.log(P);
+       return score;
+    }
+
+   
+    double defaultScore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF, double a) {
+      return defaultScore( tf, df, idf, DL, avgDL, DocNum,CL,CTF) - a * var;
+
+
+    }
+
+   
+    double getscore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF, double a) {
+        return  getscore(tf, df, idf, DL, avgDL, DocNum, CL, CTF) - a * var;
+
+
+    }
+
+ 
+}

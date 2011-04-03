@@ -1,0 +1,46 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package uk.ac.ucl.panda.retrieval.models;
+
+import java.util.HashMap;
+
+/**
+ *
+ * @author xxms
+ */
+public class Language_u extends Models {
+
+    double u = 1000d;
+    double var = 0;
+
+   
+   double getscore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF) {
+       //  double log2toe = 1.0d / Math.log(2.0d);
+      //   System.out.println("tf "+tf+" DL "+DL+" CTF " + CTF + " CL " + CL);
+         double temp = (tf + u*CTF/CL)/(DL+u);
+         double score = Math.log(temp);
+     //    System.out.println(score);
+         return score;
+    }
+
+  
+    double defaultScore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF) {
+        return Math.log(u*CTF/CL/(DL+u));
+    }
+
+   
+    double defaultScore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF, double a) {
+        return defaultScore( tf, df, idf, DL, avgDL, DocNum, CL, CTF) - a * var;
+
+    }
+
+ 
+    double getscore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF, double a) {
+        return getscore(tf, df, idf, DL, avgDL, DocNum, CL, CTF) - a * var;
+
+    }
+
+}

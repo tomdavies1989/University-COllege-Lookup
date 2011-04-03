@@ -1,0 +1,84 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package uk.ac.ucl.panda.retrieval.models;
+
+import java.util.HashMap;
+
+/**
+ *
+ * @author xxms
+ */
+public class Language_AdV extends Models {
+
+     double u = 0.01d;
+     double a = 10.0d;
+
+    @Override
+   double getscore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF) {
+       //  double log2toe = 1.0d / Math.log(2.0d);
+      //   System.out.println("tf "+tf+" DL "+DL+" CTF " + CTF + " CL " + CL);
+         double tempUP = tf + u*CTF/CL;
+         double tempD = DL+u;
+         double mean = tempUP/tempD;
+         double var = tempUP*(tempD-tempUP)/(tempD*tempD*(tempD+1.0d));
+         double adjustedMean = Math.log (mean/(1-mean))+ (2.0d*mean-1.0d)*var/(2.0d*mean*mean*(1.0d-mean)*(1.0d-mean));
+         double newVar = var/(mean*mean*(1.0d-mean)*(1.0d-mean));
+         double score = adjustedMean - a*newVar/2.0d;
+                 //Math.log(tempUP/tempD - a*(tempUP*(tempD-tempUP)/(2*tempD*tempD*(tempD+1))));
+     //    System.out.println(score);
+         return score;
+    }
+
+    @Override
+    double defaultScore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF) {
+          double tempUP = u*CTF/CL;
+         double tempD = DL+u;
+         double mean = tempUP/tempD;
+         double var = tempUP*(tempD-tempUP)/(tempD*tempD*(tempD+1.0d));
+         double adjustedMean = Math.log (mean/(1.0d-mean))+ (2.0d*mean-1.0d)*var/(2.0d*mean*mean*(1.0d-mean)*(1.0d-mean));
+         double newVar = var/(mean*mean*(1.0d-mean)*(1.0d-mean));
+         double score = adjustedMean - a*newVar/2.0d;
+
+         //double score = Math.log(tempUP/tempD - a*(tempUP*(tempD-tempUP)/(2*tempD*tempD*(tempD+1))));
+     //    System.out.println(score);
+         return score;
+    }
+
+    @Override
+    double defaultScore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF, double aa) {
+        a=aa;
+            double tempUP = u*CTF/CL;
+         double tempD = DL+u;
+         double mean = tempUP/tempD;
+         double var = tempUP*(tempD-tempUP)/(tempD*tempD*(tempD+1.0d));
+         double adjustedMean = Math.log (mean/(1.0d-mean))+ (2.0d*mean-1.0d)*var/(2.0d*mean*mean*(1.0d-mean)*(1.0d-mean));
+         double newVar = var/(mean*mean*(1.0d-mean)*(1.0d-mean));
+         double score = adjustedMean - a*newVar/2.0d;
+
+         //double score = Math.log(tempUP/tempD - a*(tempUP*(tempD-tempUP)/(2*tempD*tempD*(tempD+1))));
+     //    System.out.println(score);
+         return score;
+    }
+
+    @Override
+    double getscore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF, double aa) {
+              //  double log2toe = 1.0d / Math.log(2.0d);
+      //   System.out.println("tf "+tf+" DL "+DL+" CTF " + CTF + " CL " + CL);
+        a=aa;
+         double tempUP = tf + u*CTF/CL;
+         double tempD = DL+u;
+         double mean = tempUP/tempD;
+         double var = tempUP*(tempD-tempUP)/(tempD*tempD*(tempD+1.0d));
+         double adjustedMean = Math.log (mean/(1-mean))+ (2.0d*mean-1.0d)*var/(2.0d*mean*mean*(1.0d-mean)*(1.0d-mean));
+         double newVar = var/(mean*mean*(1.0d-mean)*(1.0d-mean));
+         double score = adjustedMean - a*newVar/2.0d;
+                 //Math.log(tempUP/tempD - a*(tempUP*(tempD-tempUP)/(2*tempD*tempD*(tempD+1))));
+     //    System.out.println(score);
+         return score;
+    }
+
+
+}

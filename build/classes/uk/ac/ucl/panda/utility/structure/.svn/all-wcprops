@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ir/!svn/ver/259/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure
+END
+DocData.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/DocData.java
+END
+FieldInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/FieldInfo.java
+END
+StringHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/StringHelper.java
+END
+Fieldable.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/Fieldable.java
+END
+TermPositions.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/TermPositions.java
+END
+RAMFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/RAMFile.java
+END
+Parameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/Parameter.java
+END
+FieldInfos.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/FieldInfos.java
+END
+TermInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/TermInfo.java
+END
+Field.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/Field.java
+END
+FieldSelectorResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/FieldSelectorResult.java
+END
+FieldSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/FieldSelector.java
+END
+Normalise.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/Normalise.java
+END
+ToStringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/ToStringUtils.java
+END
+IndexFileNames.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/IndexFileNames.java
+END
+TermEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/TermEnum.java
+END
+TermBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/TermBuffer.java
+END
+SegmentInfos.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/SegmentInfos.java
+END
+RAMDirectory.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/RAMDirectory.java
+END
+Directory.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/Directory.java
+END
+Term.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ir/!svn/ver/259/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/Term.java
+END
+AbstractField.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/AbstractField.java
+END
+TermFreqVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/TermFreqVector.java
+END
+CharTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/CharTokenizer.java
+END
+FilteredTermEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/FilteredTermEnum.java
+END
+TermVectorOffsetInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/TermVectorOffsetInfo.java
+END
+SegmentInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/SegmentInfo.java
+END
+Document.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/Document.java
+END
+TermPositionVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/TermPositionVector.java
+END
+TermDocs.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/TermDocs.java
+END
+PriorityQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/PriorityQueue.java
+END
+CharStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/CharStream.java
+END
+FSDirectory.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/FSDirectory.java
+END
+SmallFloat.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/utility/structure/SmallFloat.java
+END

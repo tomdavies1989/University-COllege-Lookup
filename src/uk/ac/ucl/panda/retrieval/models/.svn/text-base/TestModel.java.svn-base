@@ -1,0 +1,55 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package uk.ac.ucl.panda.retrieval.models;
+
+/**
+ *
+ * @author xxms
+ */
+public class TestModel extends Models {
+
+     double u = 2000.0d;
+     double a = 300.0d;
+
+    @Override
+   double getscore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF) {
+       //  double log2toe = 1.0d / Math.log(2.0d);
+      //   System.out.println("tf "+tf+" DL "+DL+" CTF " + CTF + " CL " + CL);
+        
+        
+         double tempUP = tf + u*CTF/CL;
+         double tempD = DL+u;
+         double confidence= Math.sqrt(Math.sqrt(tempUP*(tempD-tempUP)/(2*tempD*tempD*(tempD+1))));
+         double score = Math.log(tempUP/tempD/ confidence);
+     //    System.out.println(score);
+        
+         
+         
+         return score;
+    }
+
+    @Override
+    double defaultScore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF) {
+          double tempUP = u*CTF/CL;
+         double tempD = DL+u;
+         double confidence= Math.sqrt(Math.sqrt(tempUP*(tempD-tempUP)/(2*tempD*tempD*(tempD+1))));
+         double score = Math.log(tempUP/tempD/ confidence);
+     //    System.out.println(score);
+         return score;
+    }
+
+    @Override
+    double defaultScore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF, double a) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    double getscore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF, double a) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+
+}

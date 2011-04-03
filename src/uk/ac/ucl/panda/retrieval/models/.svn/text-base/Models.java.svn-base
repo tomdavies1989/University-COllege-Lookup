@@ -1,0 +1,26 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package uk.ac.ucl.panda.retrieval.models;
+
+import java.util.HashMap;
+
+/**
+ *
+ * @author xxms
+ */
+public abstract class Models {
+
+   abstract double defaultScore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF) ;
+
+
+    abstract double getscore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF);
+    
+    abstract double defaultScore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF, double a) ;
+
+
+    abstract double getscore(double tf, double df, double idf, double DL, double avgDL, int DocNum, double CL, int CTF, double a);
+
+}

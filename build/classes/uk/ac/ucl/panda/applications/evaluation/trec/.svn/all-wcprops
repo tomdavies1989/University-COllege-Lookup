@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ir/!svn/ver/259/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/applications/evaluation/trec
+END
+QualityBenchmark.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/ir/!svn/ver/259/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/applications/evaluation/trec/QualityBenchmark.java
+END
+QualityStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/applications/evaluation/trec/QualityStats.java
+END
+TrecJudge.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/applications/evaluation/trec/TrecJudge.java
+END
+Judge.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/ir/!svn/ver/215/Panda/java/branches/Panda_0_1/src/uk/ac/ucl/panda/applications/evaluation/trec/Judge.java
+END
