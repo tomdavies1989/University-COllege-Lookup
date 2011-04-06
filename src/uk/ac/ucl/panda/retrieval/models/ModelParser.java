@@ -25,7 +25,7 @@ public class ModelParser implements Model {
 		}
 		else if (model == 1)
 		{
-		  //algorithm = new VectorSpaceModel();
+		  algorithm = new VectorSpaceModel();
 		}
 		else if (model == 2){
 			algorithm = new BM25();

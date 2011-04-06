@@ -35,11 +35,11 @@ public class TFIDF implements  Model {
 		return 0.0d;
 	}
 
-        //Implement getVSMscore for vector space model
-        //query --> is a query term vector, TermVector --> is a hash with term as key and frequency of the term in the document as value
-
-        @Override
-	public double getVSMscore(Vector query, HashMap TermVector) {
+  //Implement getVSMscore for vector space model
+  //query --> is a query term vector, TermVector --> is a hash with term as key and frequency of the term in the document as value
+  @Override
+	public double getVSMscore(Vector query, HashMap TermVector)
+  {
 		return 0.0;
 	}
 
