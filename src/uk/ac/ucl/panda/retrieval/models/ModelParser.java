@@ -23,6 +23,10 @@ public class ModelParser implements Model {
 		if (model == 0) {
 			algorithm = new TFIDF();
 		}
+		else if (model == 1)
+		{
+		  algorithm = new VectorSpaceModel();
+		}
 		else if (model == 2){
 			algorithm = new BM25();
 		}
