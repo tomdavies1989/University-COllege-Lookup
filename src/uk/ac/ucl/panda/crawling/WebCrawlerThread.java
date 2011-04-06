@@ -28,7 +28,6 @@ public class WebCrawlerThread extends Thread
   
   private String outputFilename;
   private String outputFilePath;
-  private String outputSerialNumber;
   protected StringWriter uncompressedOutputWriter;
   protected BufferedWriter fileWriter;
   private File outputFile;
@@ -129,8 +128,6 @@ public class WebCrawlerThread extends Thread
     // if "null" was given, then this means that the website could not be retrieved as HTML, and so nothing else can be done:
     if ( rawHTML == null ) { return; }
     
-    //outputSerialNumber = Long.toString( threadController.filenameIncrementer.getNextValue() );
-    //outputFilename = Constants.OUTPUT_FILE_PREFIX + outputSerialNumber + Constants.OUTPUT_FILE_SUFFIX;
     outputFilename = convertURLtoFilename( currentAddress.URL ) + Constants.OUTPUT_FILE_SUFFIX;
     outputFilePath = threadController.outputDirectory + outputFilename;
     

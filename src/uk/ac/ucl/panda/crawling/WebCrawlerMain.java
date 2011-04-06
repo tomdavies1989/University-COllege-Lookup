@@ -19,9 +19,6 @@ public class WebCrawlerMain
   LinkedHashBucket<WebAddress> visitedURLs; // to prevent doubling-back and re-visiting a URL:
   LinkedHashBucket<WebAddress> URLsToVisit;
   
-  // the central namer of the output text-files:
-  ConcurrentIncrementer filenameIncrementer;
-  
   // the logfile:
   BufferedWriter logFileWriter;
   
@@ -66,8 +63,6 @@ public class WebCrawlerMain
     // Linked-lists and Hashmaps are used both because they're both O(1) fast for most operations:
     visitedURLs = new LinkedHashBucket<WebAddress>( Constants.URL_LISTS_INITIAL_CAPACITY );
     URLsToVisit = new LinkedHashBucket<WebAddress>( Constants.URL_LISTS_INITIAL_CAPACITY );
-    
-    filenameIncrementer = new ConcurrentIncrementer();
     
     // set up the log file:
     File logFile = new File("log.txt");
