@@ -2,14 +2,11 @@ package uk.ac.ucl.panda.crawling;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.ByteArrayInputStream;
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
 import java.io.StringReader;
 import java.io.StringWriter;
 import java.net.HttpURLConnection;
@@ -132,60 +129,26 @@ public class WebCrawlerThread extends Thread
     // if "null" was given, then this means that the website could not be retrieved as HTML, and so nothing else can be done:
     if ( rawHTML == null ) { return; }
     
-    outputSerialNumber = Long.toString( threadController.filenameIncrementer.getNextValue() );
-    outputFilename = Constants.OUTPUT_FILE_PREFIX + outputSerialNumber + Constants.OUTPUT_FILE_SUFFIX;
+    //outputSerialNumber = Long.toString( threadController.filenameIncrementer.getNextValue() );
+    //outputFilename = Constants.OUTPUT_FILE_PREFIX + outputSerialNumber + Constants.OUTPUT_FILE_SUFFIX;
+    outputFilename = convertURLtoFilename( currentAddress.URL ) + Constants.OUTPUT_FILE_SUFFIX;
     outputFilePath = threadController.outputDirectory + outputFilename;
-    
-    // TODO: LZW compression, using a StringReader (a type of InputStream) for input, and a FileOutputStream for output
-    /*uncompressedOutputWriter = new StringWriter( Constants.ESTIMATED_SIZE_OF_WEBPAGE );
-    // prepare the file:
-    uncompressedOutputWriter.write( "<DOC>" ); uncompressedOutputWriter.write( System.getProperty("line.separator") );
-    uncompressedOutputWriter.write( "<DOCNO> " + currentAddress.URL + " </DOCNO>" ); uncompressedOutputWriter.write( System.getProperty("line.separator") );
-    uncompressedOutputWriter.write( "<TEXT>" ); uncompressedOutputWriter.write( System.getProperty("line.separator") );
-    
-    StringReader rawHTMLReader = new StringReader(rawHTML);
-    new ParserDelegator().parse(rawHTMLReader, parserListener, true);
-    rawHTMLReader.close();
-    
-    uncompressedOutputWriter.write( System.getProperty("line.separator") );
-    uncompressedOutputWriter.write( "</TEXT>" ); uncompressedOutputWriter.write( System.getProperty("line.separator") );
-    uncompressedOutputWriter.write( "</DOC>" ); uncompressedOutputWriter.write( System.getProperty("line.separator") );
-    uncompressedOutputWriter.close();
-    
-    String uncompressedOutput = uncompressedOutputWriter.toString();
-    byte[] byteArrayUncompressedOutput = new byte[ uncompressedOutput.length() ];
-    int counter = 0;
-    for ( char currentChar : uncompressedOutput.toCharArray() )
-    {
-      byteArrayUncompressedOutput[counter] = ( byte ) currentChar;
-      counter++;
-    }
-    ByteArrayInputStream uncompressedOutputFileReader = new ByteArrayInputStream( byteArrayUncompressedOutput );
-    
-    outputFile = new File( outputFilePath );
-    outputFile.delete();
-    //fileWriter = new BufferedWriter( new FileWriter( outputFile ) );
-    FileOutputStream fileOutputStream = new FileOutputStream( outputFile );
-    
-    new compression.LZ78().compress( (InputStream) uncompressedOutputFileReader, (OutputStream) fileOutputStream );
-    uncompressedOutputFileReader.close();
-    fileOutputStream.close();*/
-    
     
     outputFile = new File( outputFilePath );
     outputFile.delete();
     fileWriter = new BufferedWriter( new FileWriter( outputFile ) );
+    
     // prepare the file:
-    fileWriter.write( "<DOC>" ); fileWriter.newLine();
-    fileWriter.write( "<DOCNO> " + currentAddress.URL + " </DOCNO>" ); fileWriter.newLine();
+    fileWriter.write( "<DOC>" ); fileWriter.newLine(); fileWriter.newLine();
+    fileWriter.write( "<DOCNO> " + currentAddress.URL + " </DOCNO>" ); fileWriter.newLine(); fileWriter.newLine();
     fileWriter.write( "<TEXT>" ); fileWriter.newLine();
     
     StringReader rawHTMLReader = new StringReader(rawHTML);
     new ParserDelegator().parse(rawHTMLReader, parserListener, true);
     rawHTMLReader.close();
     
-    fileWriter.newLine();
-    fileWriter.write( "</TEXT>" ); fileWriter.newLine();
+    fileWriter.newLine(); fileWriter.newLine();
+    fileWriter.write( "</TEXT>" ); fileWriter.newLine(); fileWriter.newLine();
     fileWriter.write( "</DOC>" ); fileWriter.newLine();
     fileWriter.close();
   }
@@ -305,11 +268,44 @@ public class WebCrawlerThread extends Thread
   
   boolean sameHosts( String URL1, String URL2 )
   {
-    URL1 = getHostname(URL1);
-    URL2 = getHostname(URL2);
-    
-    if ( URL1.equals(URL2) ) { return true; }
+    if ( getHostname(URL1).equals( getHostname(URL2) ) ) { return true; }
     else { return false; }
+  }
+  
+  /*
+   * Returns true if the character is in:
+   * 0-9, A-Z, a-z,
+   * and returns false otherwise.
+   * 
+   * Single characters in Java are eight-bit UTF-8 characters.
+   */
+  private boolean charValidInFilename(char c)
+  {
+    if ( c >= 0x30 && c <= 0x39 ) { return true; }
+    if ( c >= 0x41 && c <= 0x5A ) { return true; }
+    if ( c >= 0x61 && c <= 0x7A ) { return true; }
+    
+    return false;
+  }
+  
+  private String convertURLtoFilename( String inputURL )
+  {
+    StringBuilder returnString = new StringBuilder( inputURL.length() );
+    char[] inputURLCharArray = inputURL.toCharArray();
+    
+    for ( char c : inputURLCharArray )
+    {
+      if ( charValidInFilename(c) )
+      {
+        returnString.append(c);
+      }
+      else
+      {
+        returnString.append( Constants.FILENAME_SUBSTITUTION_CHAR );
+      }
+    }
+    
+    return returnString.toString();
   }
   
 }
@@ -336,7 +332,7 @@ class HTMLParserListener extends HTMLEditorKit.ParserCallback
         thread.uncompressedOutputWriter.write( System.getProperty( "line.separator" ) );*/
         
         thread.fileWriter.write( data );
-        thread.fileWriter.write( System.getProperty( "line.separator" ) );
+        thread.fileWriter.newLine();
       }
     }
     catch ( IOException e )

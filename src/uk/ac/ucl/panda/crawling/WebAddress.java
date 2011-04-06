@@ -1,6 +1,5 @@
 package uk.ac.ucl.panda.crawling;
 
-
 /*
  * Holds a URL as a string, and its depth in the crawl tree.
  * 

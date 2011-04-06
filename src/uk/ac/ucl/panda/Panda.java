@@ -190,7 +190,8 @@ public class Panda {
 			return ERROR_NO_ARGUMENTS;
 
 		if(args[0].equals("-c") || args[0].equals("--crawl") ){
-			try{
+			try
+		{
 			new Crawler(args[1],args[2],args[3],args[4], args[5]);}
 			catch(Exception e){e.printStackTrace();}
 		}

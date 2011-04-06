@@ -46,4 +46,7 @@ public class Constants
   public static final String OUTPUT_FILE_PREFIX = "Panda Crawler output ";
   public static final String OUTPUT_FILE_SUFFIX = ".txt";
   
+  // the character to substitute in filenames in place of invalid characters:
+  public static final char FILENAME_SUBSTITUTION_CHAR = '_';
+  
 }
