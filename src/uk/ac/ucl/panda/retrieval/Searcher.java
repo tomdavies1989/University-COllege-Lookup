@@ -68,7 +68,7 @@ public class Searcher implements Searchable {
   public  Searcher(String index) throws FileNotFoundException, IOException, ClassNotFoundException {
         this.index=index;
         this.reader=IndexReader.open(index);
-        this.model_num = 0; // 0 is for TFIDF, 1 for Vector Space Model, 2 for BM25
+        this.model_num = 1; // 0 is for TFIDF, 1 for Vector Space Model, 2 for BM25
         // Specify model below
         this.raws=new RawMaterial(index, model_num); // model_num is for TFIDF, please use 1 for Vector Space Model
 

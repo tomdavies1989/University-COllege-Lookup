@@ -29,21 +29,21 @@ public class Panda {
 	//Adjust with full server paths if changing server
 	
 	//Tom's URLS (DO NOT DELETE/CHANGE)
-	private final static String PANDA_ETC  = System.getProperty("panda.etc", "C:/wamp/www/UCLWebSearch/etc/");
+	/*private final static String PANDA_ETC  = System.getProperty("panda.etc", "C:/wamp/www/UCLWebSearch/etc/");
 	private final static String PANDA_VAR  = System.getProperty("panda.var", "C:/wamp/www/UCLWebSearch/var/");
-	private final static String PANDA_HOME = System.getProperty("panda.home", "C:/wamp/www/UCLWebSearch/");
+	private final static String PANDA_HOME = System.getProperty("panda.home", "C:/wamp/www/UCLWebSearch/");*/
 	
-	//Change to your URLS and comment mine out
-	//private final static String PANDA_ETC  = System.getProperty("panda.etc", "C:/wamp/www/UCLWebSearch/etc/");
-	//private final static String PANDA_VAR  = System.getProperty("panda.var", "C:/wamp/www/UCLWebSearch/var/");
-	//private final static String PANDA_HOME = System.getProperty("panda.home", "C:/wamp/www/UCLWebSearch/");
+	// Change to your URLS and comment mine out
+	private final static String PANDA_ETC  = System.getProperty("panda.etc", "F:\\storage\\Uni work\\Git repository folder\\University-COllege-Lookup\\etc\\");
+	private final static String PANDA_VAR  = System.getProperty("panda.var", "F:\\storage\\Uni work\\Git repository folder\\University-COllege-Lookup\\var\\");
+	private final static String PANDA_HOME = System.getProperty("panda.home", "F:\\storage\\Uni work\\Git repository folder\\University-COllege-Lookup\\");
 	
 	protected String newline = System.getProperty("line.separator");
 
 	protected String fileseparator = System.getProperty("file.separator");
 
 	protected BufferedReader buf = null;
-	/** The unkown option */
+	/** The unknown option */
 	protected String unknownOption;
 
 	/** Specifies whether a help message is printed */
