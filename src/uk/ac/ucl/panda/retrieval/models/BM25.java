@@ -51,12 +51,53 @@ public class BM25 implements  Model {
 		return 0.0d;
 	}
 
-        //Implement getVSMscore for vector space model
-        //query --> is a query term vector, TermVector --> is a hash with term as key and frequency of the term in the document as value
+  //Implement getVSMscore for vector space model
+  //query --> is a query term vector, TermVector --> is a hash with term as key and frequency of the term in the document as value
 
-        @Override
-	public double getVSMscore(Vector query, HashMap TermVector) {
-		return 0.0;
+  @Override
+	public double getVSMscore(Vector query, HashMap TermVector)
+  {
+    System.out.println("query class is: " + query.getClass().toString());
+    System.out.println("termvector class is: " + TermVector.getClass().toString());
+    
+    // fixed parameters for the BM25 model:
+    double k1 = 2.0;
+    double b = 0.75;
+    
+    HashMap<String, Integer> TermVectorOwn = (HashMap<String, Integer>) TermVector;
+    
+    HashMap<String,Integer> queryOwn = new HashMap<String, Integer>();
+    for( Object currentQuery : query )
+    {
+      queryOwn.put( ( String ) currentQuery, 1 );
+    }
+    
+    long totalNumberOfTerms = 0;
+    for ( String currentKey : TermVectorOwn.keySet() )
+    {
+      totalNumberOfTerms += (Integer) TermVectorOwn.get(currentKey);
+    }
+    
+    double averageNumberOfTerms = totalNumberOfTerms / TermVectorOwn.size();
+    
+    HashMap<String, Double> IDF = new HashMap<String, Double>();
+    double currentIDF;
+    for ( String currentKey : TermVectorOwn.keySet() )
+    {
+      currentIDF = Math.log( (double)totalNumberOfTerms / (double)(TermVectorOwn.get(currentKey) + 1) );
+      IDF.put( currentKey, currentIDF );
+    }
+    
+    double rollingSum = 0, numerator, denominator;
+    for ( String currentKey : queryOwn.keySet() )
+    {
+      numerator = (double) TermVectorOwn.get( currentKey ) * (k1 + 1);
+      denominator = (double) TermVectorOwn.get( currentKey ) + ( k1 * (1 - b + b * ( totalNumberOfTerms / averageNumberOfTerms ) ) );
+      
+      rollingSum += numerator / denominator;
+    }
+    
+    return rollingSum;
 	}
 
 //Following functions are not needed for Text Retrieval assignment
