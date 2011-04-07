@@ -28,7 +28,11 @@ public class Constants
    */
   public static final long THREAD_START_INTERVAL = 500; // in milliseconds
   
-  // (this value should be larger than the value for THREAD_START_INTERVAL)
+  /*
+   * The thread resurrecting loop will wait for the following number of milliseconds
+   * multiplied by the maximum number of threads specified to the program.
+   * This value should be larger than the value for THREAD_START_INTERVAL.
+   */
   public static final long THREAD_RESURRECTION_POLLING_INTERVAL = 600; // in milliseconds, per thread
   
   // the maximum amount of time to wait for a website to be downloaded before beginning to parse it:

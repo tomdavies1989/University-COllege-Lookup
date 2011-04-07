@@ -1,5 +1,9 @@
 package uk.ac.ucl.panda.crawling;
 
+
+/*
+ * The Main class for the crawler.
+ */
 public class Crawler
 {
   private static int depth;

@@ -9,15 +9,19 @@ import java.util.ListIterator;
 public class WebCrawlerMain
 {
   public final String startingAddress; // this is stored as a String because Strings are immutable
-  public final int maximumDepth;
-  public final int numberOfThreads;
-  public final String outputDirectory;
+  public final int maximumDepth; // the maximum number of links from the root URL to delve into.
+  public final int numberOfThreads; // the number of web-crawling threads that this class should spawn.
+  public final String outputDirectory; // the directory where the retrieved and parsed websites should be outputted to.
   
+  /*
+   * Whether the crawler will follow links to different hosts or not.
+   * (e.g. a link from www.cs.ucl.ac.uk to www.google.com will only be followed if
+   * spanHosts is set to true).
+   */
   final boolean spanHosts;
   
-  // Linked-lists are used because add() and remove() are constant-time operations in them:
   LinkedHashBucket<WebAddress> visitedURLs; // to prevent doubling-back and re-visiting a URL:
-  LinkedHashBucket<WebAddress> URLsToVisit;
+  LinkedHashBucket<WebAddress> URLsToVisit; // a list of pending URLs
   
   // the logfile:
   BufferedWriter logFileWriter;
@@ -33,6 +37,7 @@ public class WebCrawlerMain
     this.spanHosts = spanHosts; // whether to crawl across different hostnames or not
     this.numberOfThreads = numberOfThreads;
     
+    // ensuring that the output directory has a trailing file separator:
     if ( outputDirectory.endsWith( System.getProperty("file.separator") ) ) { this.outputDirectory = outputDirectory; }
     else { this.outputDirectory = outputDirectory + System.getProperty("file.separator"); }
     
@@ -95,9 +100,14 @@ public class WebCrawlerMain
       Thread.sleep( Constants.THREAD_START_INTERVAL );
     }
     
-    int deadThreads;
-    int stuckThreads;
+    int deadThreads; // number of dead threads
+    int stuckThreads; // number of interrupted threads (i.e. that are in the wait() state)
     
+    /*
+     * Keep resurrecting dead threads unless all of them have died.
+     * If all of the threads have died, then this indicates that there
+     * are no more pending URLs to visit.
+     */
     do
     {
       deadThreads = 0;
@@ -133,8 +143,6 @@ public class WebCrawlerMain
         }
       }
       
-      
-      
       System.out.print( (threads.size() - deadThreads) + " threads still running\t\t");
       System.out.print( stuckThreads + " interrupted\t\t" );
       System.out.print( visitedURLs.size() + " URLs visited\t\t" );
@@ -147,6 +155,10 @@ public class WebCrawlerMain
   
   public void closeLogFile() throws Exception
   {
+    /*
+     * Ensure that the log file is only closed after all of the threads
+     * have terminated:
+     */
     for ( WebCrawlerThread thread : threads )
     {
       thread.join();

@@ -22,12 +22,12 @@ import javax.swing.text.html.parser.ParserDelegator;
 
 public class WebCrawlerThread extends Thread 
 {
-  protected WebCrawlerMain threadController;
+  protected WebCrawlerMain threadController; // a link to the WebCrawlerMain class which controls these threads
   protected WebAddress currentAddress;
-  private HTMLParserListener parserListener; // each thread should have its own HTMLParserListener, so as to avoid concurrency issues
+  private HTMLParserListener parserListener; // each thread should have its own HTMLParserListener, so as to avoid concurrency issues (even though this uses memory inefficiently)
   
-  private String outputFilename;
-  private String outputFilePath;
+  // These variables are declared here to make the garbage collector's job a bit easier:
+  private String outputFilename; // the name of the file to output the parsed web-page to
   protected StringWriter uncompressedOutputWriter;
   protected BufferedWriter fileWriter;
   private File outputFile;
@@ -70,6 +70,9 @@ public class WebCrawlerThread extends Thread
     }
   }
   
+  /*
+   * Does the manual work of retrieving the HTML of a web-page, given its URL:
+   */
   private String getHTMLFromURL( WebAddress webAddress ) throws Exception
   {
     HttpURLConnection connection;
@@ -123,19 +126,21 @@ public class WebCrawlerThread extends Thread
     return returnString.toString();
   }
   
+  /*
+   * Parse the HTML and retrieve all of the links that were in it:
+   */
   private void getLinksFromHTML( String rawHTML ) throws Exception
   {
-    // if "null" was given, then this means that the website could not be retrieved as HTML, and so nothing else can be done:
+    // if "null" was given, then this means that the web-site could not be retrieved as HTML, and so nothing else can be done:
     if ( rawHTML == null ) { return; }
     
     outputFilename = convertURLtoFilename( currentAddress.URL ) + Constants.OUTPUT_FILE_SUFFIX;
-    outputFilePath = threadController.outputDirectory + outputFilename;
     
-    outputFile = new File( outputFilePath );
+    outputFile = new File( threadController.outputDirectory + outputFilename );
     outputFile.delete();
     fileWriter = new BufferedWriter( new FileWriter( outputFile ) );
     
-    // prepare the file:
+    // prepare the output file:
     fileWriter.write( "<DOC>" ); fileWriter.newLine(); fileWriter.newLine();
     fileWriter.write( "<DOCNO> " + currentAddress.URL + " </DOCNO>" ); fileWriter.newLine(); fileWriter.newLine();
     fileWriter.write( "<TEXT>" ); fileWriter.newLine();
@@ -150,6 +155,11 @@ public class WebCrawlerThread extends Thread
     fileWriter.close();
   }
   
+  /*
+   * Store a normalised address into the list of pending URLs to visit, but only
+   * if the URL hasn't already been visited, if the URL is on the same host (if
+   * specified), and if the URL's depth is less than the maximum depth specified.
+   */
   void storeLink( String address )
   {
     // if we're already at the maximum depth, then we don't need to go any deeper:
@@ -200,6 +210,9 @@ public class WebCrawlerThread extends Thread
     return URL;
   }
   
+  /*
+   * Normalise a link which has been extracted from the HTML of a web-page.
+   */
   String normaliseLink( String linkAddress, String baseAddress )
   {
     // for absolute paths without a DNS name (i.e. without "http://www.google.com"):
@@ -222,11 +235,14 @@ public class WebCrawlerThread extends Thread
     return linkAddress;
   }
   
+  /*
+   * Get the top-level directory of the URL given:
+   * "http://www.google.com/search/searcher/index.html" -> "http://www.google.com"
+   */
   String getRootWebAddress(String URL)
   {
     URL = normaliseURL(URL);
     
-    // "http://www.google.com/search/searcher/index.html" -> "http://www.google.com"
     if ( URL.substring( Constants.HTTP_LENGTH ).contains("/") )
     {
       URL = URL.substring( 0, URL.indexOf('/', Constants.HTTP_LENGTH) );
@@ -236,11 +252,14 @@ public class WebCrawlerThread extends Thread
     return URL;
   }
   
+  /*
+   * Get the current directory of the URL given:
+   * "http://www.google.com/search/searcher/index.html" -> "http://www.google.com/search/searcher"
+   */
   String getCurrentLevelWebAddress(String URL)
   {
     URL = normaliseURL(URL);
     
-    // "http://www.google.com/search/searcher/index.html" -> "http://www.google.com/search/searcher"
     if ( URL.substring( Constants.HTTP_LENGTH ).contains("/") )
     {
       URL = URL.substring( 0, URL.lastIndexOf('/') + 1 );
@@ -255,6 +274,10 @@ public class WebCrawlerThread extends Thread
     return URL;
   }
   
+  /*
+   * Get the host-name of the URL given:
+   * "http://www.google.com/search/searcher/index.html" -> "www.google.com"
+   */
   String getHostname(String URL)
   {
     URL = getRootWebAddress(URL);
@@ -263,6 +286,9 @@ public class WebCrawlerThread extends Thread
     return URL;
   }
   
+  /*
+   * Check whether two URLs have the same host-name:
+   */
   boolean sameHosts( String URL1, String URL2 )
   {
     if ( getHostname(URL1).equals( getHostname(URL2) ) ) { return true; }
@@ -285,6 +311,11 @@ public class WebCrawlerThread extends Thread
     return false;
   }
   
+  /*
+   * Convert a URL to a valid file-name, replacing any characters in the URL
+   * which are not valid characters within a file-name with the character
+   * Constants.FILENAME_SUBSTITUTION_CHAR.
+   */
   private String convertURLtoFilename( String inputURL )
   {
     StringBuilder returnString = new StringBuilder( inputURL.length() );
@@ -307,7 +338,9 @@ public class WebCrawlerThread extends Thread
   
 }
 
-
+/*
+ * The HTML Parser (from Java Swing).
+ */
 class HTMLParserListener extends HTMLEditorKit.ParserCallback
 {
   
@@ -319,15 +352,17 @@ class HTMLParserListener extends HTMLEditorKit.ParserCallback
     this.thread = thread;
   }
   
+  /*
+   * If text is encountered within the HTML, then write it out to the output file,
+   * but only if it does not contain any strange characters (which are defined in
+   * Constants.DISALLOWED_CHARS).
+   */
   public void handleText( char[] data, int position )
   {
     try
     {
       if ( noDisallowedChars(data) )
       {
-        /*thread.uncompressedOutputWriter.write( data );
-        thread.uncompressedOutputWriter.write( System.getProperty( "line.separator" ) );*/
-        
         thread.fileWriter.write( data );
         thread.fileWriter.newLine();
       }
@@ -355,7 +390,11 @@ class HTMLParserListener extends HTMLEditorKit.ParserCallback
   public void handleError( String errorMsg, int position ) {}
   
   /*
-   * For handling both ordinary and simple tags:
+   * For handling both ordinary and simple tags.
+   * 
+   * The only tags that we're interested in are <a href="..."> tags,
+   * as these are links to other web-pages. If one of these tags is
+   * encountered, then add its URL to the list of pending URLs to visit.
    */
   private void handleTag( HTML.Tag tag, MutableAttributeSet attributes )
   {
@@ -369,6 +408,10 @@ class HTMLParserListener extends HTMLEditorKit.ParserCallback
     }
   }
   
+  /*
+   * Return true if the string given does not contain any disallowed 
+   * character (as defined in Constants.DISALLOWED_CHARS).
+   */
   private boolean noDisallowedChars( char[] input )
   {
     for ( char currentChar : input )
