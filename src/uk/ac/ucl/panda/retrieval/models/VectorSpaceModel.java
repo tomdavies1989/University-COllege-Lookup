@@ -37,45 +37,61 @@ public class VectorSpaceModel implements Model
       queryOwn.put( ( String ) currentQuery, 1 );
     }
     
-    long totalNumberOfTerms = 0;
+    long TermVectorOwn_totalNumberOfTerms = 0;
     for ( String currentKey : TermVectorOwn.keySet() )
     {
-      totalNumberOfTerms += (Integer) TermVectorOwn.get(currentKey);
+      TermVectorOwn_totalNumberOfTerms += (Integer) TermVectorOwn.get(currentKey);
     }
     
-    HashMap<String, Double> TF_IDF = new HashMap<String, Double>();
     double currentTF;
     double currentIDF;
+    
+    HashMap<String, Double> TermVectorOwn_TFIDF = new HashMap<String, Double>();
     for ( String currentKey : TermVectorOwn.keySet() )
     {
-      currentTF = (double)TermVectorOwn.get(currentKey) / (double)totalNumberOfTerms;
-      currentIDF = Math.log( (double)totalNumberOfTerms / (double)(TermVectorOwn.get(currentKey) + 1) );
+      currentTF = (double)TermVectorOwn.get(currentKey) / (double)TermVectorOwn_totalNumberOfTerms;
+      currentIDF = Math.log( (double)TermVectorOwn_totalNumberOfTerms / (double)(TermVectorOwn.get(currentKey) + 1) );
       
-      TF_IDF.put( currentKey, currentTF / currentIDF );
+      TermVectorOwn_TFIDF.put( currentKey, currentTF / currentIDF );
+    }
+    
+    long queryOwn_totalNumberOfTerms = 0;
+    for ( String currentKey : queryOwn.keySet() )
+    {
+      queryOwn_totalNumberOfTerms += (Integer) queryOwn.get(currentKey);
+    }
+    
+    HashMap<String, Double> queryOwn_TFIDF = new HashMap<String, Double>();
+    for ( String currentKey : queryOwn.keySet() )
+    {
+      currentTF = (double)queryOwn.get(currentKey) / (double)queryOwn_totalNumberOfTerms;
+      currentIDF = Math.log( (double)queryOwn_totalNumberOfTerms / (double)(queryOwn.get(currentKey) + 1) );
+      
+      queryOwn_TFIDF.put( currentKey, currentTF / currentIDF );
     }
     
     double returnNumerator = 0;
-    for ( String key : queryOwn.keySet() )
+    for ( String key : queryOwn_TFIDF.keySet() )
     {
       double currentA, currentB;
       
-      currentA = queryOwn.get( key );
-      currentB = TermVectorOwn.get( key );
+      currentA = queryOwn_TFIDF.get( key );
+      currentB = TermVectorOwn_TFIDF.get( key );
       
       returnNumerator += currentA * currentB;
     }
     
     double returnDenominatorA = 0;
-    for ( String key : queryOwn.keySet() )
+    for ( String key : queryOwn_TFIDF.keySet() )
     {
-      returnDenominatorA += Math.pow( queryOwn.get(key), 2 );
+      returnDenominatorA += Math.pow( queryOwn_TFIDF.get(key), 2 );
     }
     returnDenominatorA = Math.sqrt(returnDenominatorA);
     
     double returnDenominatorB = 0;
-    for ( String key : TermVectorOwn.keySet() )
+    for ( String key : TermVectorOwn_TFIDF.keySet() )
     {
-      returnDenominatorB += Math.pow( TermVectorOwn.get(key), 2 );
+      returnDenominatorB += Math.pow( TermVectorOwn_TFIDF.get(key), 2 );
     }
     returnDenominatorB = Math.sqrt(returnDenominatorB);
     
