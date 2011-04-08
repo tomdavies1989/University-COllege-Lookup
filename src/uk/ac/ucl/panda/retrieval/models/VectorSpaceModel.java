@@ -26,9 +26,6 @@ public class VectorSpaceModel implements Model
   @Override
   public double getVSMscore( Vector query, HashMap TermVector )
   {
-    System.out.println("query class is: " + query.getClass().toString());
-    System.out.println("termvector class is: " + TermVector.getClass().toString());
-    
     HashMap<String, Integer> TermVectorOwn = (HashMap<String, Integer>) TermVector;
     
     HashMap<String,Integer> queryOwn = new HashMap<String, Integer>();

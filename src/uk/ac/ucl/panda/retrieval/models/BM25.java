@@ -21,30 +21,8 @@ public class BM25 implements  Model {
   	@Override
         // if tf > 0 getscore will be called to compute document score for the given term.
 	public double getscore(double tf, double df, double idf, double DL,
-			double avgDL, int DocNum, double CL, int CTF) {
-  		/*//wikipedia
-  		//double top = tf * 3;
-  		//double bottom = tf + (2 * (1 - 0.75 + 0.75*(DL/avgDL)));
-  		
-  		//double score = idf * (top/bottom);
-
-  		//jun's notes
-  		int k3 = 2;
-  		int k1 = 2;
-  		double b = 0.75;
-  		
-  		double k = k1* ((1-b) + b*(DL/avgDL));
-  		
-  		double first = ((k3+1)*tf)/(k3+tf);
-  		double second = (k1 + 1)* df/(k+df);
-  		
-  		double score = idf * first * second;
-  		
-  		return score;*/
-  	  
-  	  
-  	  
-  	  
+			double avgDL, int DocNum, double CL, int CTF)
+  	{
   	  // fixed parameters for the BM25 model:
       double k1 = 2.0;
       double b = 0.75;
@@ -53,7 +31,7 @@ public class BM25 implements  Model {
       double denominator = tf + ( k1 * ( 1 - b + (b * (DL/avgDL)) ) );
       
       return idf * (numerator / denominator);
-	}
+	  }
 
         /* if tf =0, defaultScore function is used to compute the document score.
         i.e default score for the document if the term is not present in the document.*/
