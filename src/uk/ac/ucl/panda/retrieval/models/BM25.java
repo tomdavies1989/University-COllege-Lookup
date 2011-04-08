@@ -22,7 +22,7 @@ public class BM25 implements  Model {
         // if tf > 0 getscore will be called to compute document score for the given term.
 	public double getscore(double tf, double df, double idf, double DL,
 			double avgDL, int DocNum, double CL, int CTF) {
-  		//wikipedia
+  		/*//wikipedia
   		//double top = tf * 3;
   		//double bottom = tf + (2 * (1 - 0.75 + 0.75*(DL/avgDL)));
   		
@@ -40,7 +40,19 @@ public class BM25 implements  Model {
   		
   		double score = idf * first * second;
   		
-  		return score;
+  		return score;*/
+  	  
+  	  
+  	  
+  	  
+  	  // fixed parameters for the BM25 model:
+      double k1 = 2.0;
+      double b = 0.75;
+      
+      double numerator = tf * (k1 + 1);
+      double denominator = tf + ( k1 * ( 1 - b + (b * (DL/avgDL)) ) );
+      
+      return idf * (numerator / denominator);
 	}
 
         /* if tf =0, defaultScore function is used to compute the document score.
@@ -57,47 +69,7 @@ public class BM25 implements  Model {
   @Override
 	public double getVSMscore(Vector query, HashMap TermVector)
   {
-    System.out.println("query class is: " + query.getClass().toString());
-    System.out.println("termvector class is: " + TermVector.getClass().toString());
-    
-    // fixed parameters for the BM25 model:
-    double k1 = 2.0;
-    double b = 0.75;
-    
-    HashMap<String, Integer> TermVectorOwn = (HashMap<String, Integer>) TermVector;
-    
-    HashMap<String,Integer> queryOwn = new HashMap<String, Integer>();
-    for( Object currentQuery : query )
-    {
-      queryOwn.put( ( String ) currentQuery, 1 );
-    }
-    
-    long totalNumberOfTerms = 0;
-    for ( String currentKey : TermVectorOwn.keySet() )
-    {
-      totalNumberOfTerms += (Integer) TermVectorOwn.get(currentKey);
-    }
-    
-    double averageNumberOfTerms = totalNumberOfTerms / TermVectorOwn.size();
-    
-    HashMap<String, Double> IDF = new HashMap<String, Double>();
-    double currentIDF;
-    for ( String currentKey : TermVectorOwn.keySet() )
-    {
-      currentIDF = Math.log( (double)totalNumberOfTerms / (double)(TermVectorOwn.get(currentKey) + 1) );
-      IDF.put( currentKey, currentIDF );
-    }
-    
-    double rollingSum = 0, numerator, denominator;
-    for ( String currentKey : queryOwn.keySet() )
-    {
-      numerator = (double) TermVectorOwn.get( currentKey ) * (k1 + 1);
-      denominator = (double) TermVectorOwn.get( currentKey ) + ( k1 * (1 - b + b * ( totalNumberOfTerms / averageNumberOfTerms ) ) );
-      
-      rollingSum += numerator / denominator;
-    }
-    
-    return rollingSum;
+    return 0.0d;
 	}
 
 //Following functions are not needed for Text Retrieval assignment
