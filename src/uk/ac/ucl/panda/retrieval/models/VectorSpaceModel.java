@@ -73,10 +73,13 @@ public class VectorSpaceModel implements Model
     double returnNumerator = 0;
     for ( String key : queryOwn_TFIDF.keySet() )
     {
-      double currentA, currentB;
+      Double currentA, currentB;
       
       currentA = queryOwn_TFIDF.get( key );
+      if ( currentA == null ) { currentA = 0.0d; }
+      
       currentB = TermVectorOwn_TFIDF.get( key );
+      if ( currentB == null ) { currentB = 0.0d; }
       
       returnNumerator += currentA * currentB;
     }
